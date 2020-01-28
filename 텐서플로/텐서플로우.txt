@@ -1,0 +1,64 @@
+*conda prompt에서 설치하기
+
+(2.0이 깔려있을수도 있음 지워야함)
+conda install tensorflow=1.14.0
+
+*가상환경으로 만들기
+conda create --name tf_test python anaconda (가상환경이름tf_test)
+activate tf_test 
+conda update conda
+conda update pip
+
+conda install numpy
+pandas
+scikit-image
+jupyter
+scipy
+seaborn
+tensloflow=1.14.0
+
+jupyter kernel install
+
+
+conda 
+*신경망학습
+
+가중치-행렬로 이루어짐,방정식의 계수
+
+관측치:데이터포인트 ( ex 한사람에 대한 키 ,,)
+내적:한행렬의 열과 한 행렬의 행 =하나의 축을 기준으로 데이터가 어떤 크기가 되는지 설명력을 가진다 
+선형문제->비선형으로 풀기위해서 activation function (활성화함수)을 달아줌:시그모이드함수,소프트맥스함수...
+가중치가 deep 하다:가중치가 여러개
+가중치*가중치*활성화함수 =>비선형문제 풀수있음(xor)
+
+cost function :방향값을 결정하기 위해(미분해서 w를 더해줄지 빼줄지)
+minibatch:
+
+optimizer-learning rate 
+           -기울기(어느쪽 방향으로 ...) 
+           :adam 이 있지만 경우마다 다르다
+
+pca 단점: 선형 ,비선형에는 약하다 (tensorflow 에서는 비지도학습: AZ, GAN ..)
+
+분산처리-병렬처리
+          -pc  분산
+
+CPU        GPU(cuda,cudnn 필요, 분산처리를 염두해 두고 만듦)
+sesson :GPU 에 명령 하는것 
+
+constant       -feeding (for반복문 사용)         -minibatch :지역처리,속도개선(file을 읽어서 Queue에 넣고 읽어옴)
+variables(가중치들어가는 곳)
+placeholder(외부에서 주입되는 곳)
+
+*신경망의 자료구조는 Graph
+
+node     =    edge
+(계산)         (tensor:다차원배열)
+한 연산이 이루어지려면 연결된 노드들이 도착해야한다=분산처리가능(동기화) 
+데이터를 잘게 나눠서 목적에 맞게 써야함(ex float32...)
+
+#텐서보드만들기
+tf_test 에서 
+tensorboard --logdir=/tmp
+하고 주소가 나오면
+localhost:6006
