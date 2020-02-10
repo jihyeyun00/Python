@@ -1,23 +1,4 @@
-*conda prompt에서 설치하기
 
-(2.0이 깔려있을수도 있음 지워야함)
-conda install tensorflow=1.14.0
-
-*가상환경으로 만들기
-conda create --name tf_test python anaconda (가상환경이름tf_test)
-activate tf_test 
-conda update conda
-conda update pip
-
-conda install numpy
-pandas
-scikit-image
-jupyter
-scipy
-seaborn
-tensloflow=1.14.0
-
-jupyter kernel install
 
 
 conda 

@@ -1,0 +1,16 @@
+cudnn 풀고
+cuda 풀고
+
+새로생긴 엔비디아 gpu 파일에 cuda 파일에서 복사한후 붙임
+(버전이 안 맞으면 
+pip uninstall tensorflow
+conda install tensorflow==1.15.0 하고)
+conda install tensorflow-gpu==1.5.1 (1.15.0도 가능...)
+컴퓨터다시시작후
+주피터 화면에서 
+
+
+import tensorflow as tf
+
+(가상환경tf.test.gpu_device_name())
+
