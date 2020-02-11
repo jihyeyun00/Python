@@ -1,0 +1,23 @@
+GPU 사용하는법(33%만 사용하고 싶을때)
+import tensorflow as tf
+gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.333) 
+sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
+
+GPU사용시 모델을 저장하고 다시 불러오고 싶을때
+from keras.callbacks import ModelCheckpoint 
+che = 'keras_model1.model'
+point = ModelCheckpoint(filepath=che , monitor='val_loss', verbose=1, save_best_only=True)
+붙이고
+
+model.fit(x_train,y_train,batch_size=32, epochs=15,validation_data = (x_test, y_test),callbacks=[point]) 할때,
+(point 대신 sropper 를 쓸수도 있음)
+
+from keras.callbacks import EarlyStopping 
+stopper = EarlyStopping(monitor='var_accuracy', patience=3, verbose=1) 를 처음에 붙이고
+
+from keras.models import load_model
+model = load_model('/keras_model1.model') 이 곳에 계속 저장 이름은 변경 가능(gpu 의 용량을 많이 쓰는 모델을 다시 불러야 할때)
+
+그리고 GPU를 그만 쓰고 싶을때
+from numba import cuda
+cuda.close()

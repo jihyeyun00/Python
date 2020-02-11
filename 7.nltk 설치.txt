@@ -1,0 +1,15 @@
+nltk
+
+conda install nlkt
+conda install gensim
+pip install Pyro4
+pip install jpype1(또는 pip install jpype1==0.7.0)
+pip install konlpy
+pip install simplejson
+pip install pygame
+pip install pytagcloud
+
+GPU 사용하는법
+import tensorflow as tf
+gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.333) 
+sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
