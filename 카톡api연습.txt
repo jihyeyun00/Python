@@ -1,0 +1,35 @@
+0166edbccc8fae3043dc6f0830749d81
+
+https://dapi.kakao.com/v2/search/web
+
+
+
+http://www.naver.com
+=https://dapi.kakao.com/v2/search/web (검색API)
+
+요청(Request) 시 주소 사용법
+http://www.naver.com?파라미터명=값1&파라미터명2=값2&...
+=https://dapi.kakao.com/v2/search/web?query=값1&sort=값2&page=값3&size=값4
+
+query=값1&sort=값2&page=값3&size=값4
+query=값1
+
+응답(Response)
+JSON형식으로 응답한다.(카카오 API 기준)
+XML형식 등등 존재한다...
+
+JSON형식(key-value)
+{ 키_1 : 값_1,
+ 키_2 : 값_2,
+  ... }
+
+{ 키_1 : {키_1-1: 값_1-1},
+ 키_2 : 값_2,
+  ... }
+
+
+
+
+https://dapi.kakao.com/v2/search/web?query=이효리
+
+db에서 한글은 3bite씩 차지한다.
