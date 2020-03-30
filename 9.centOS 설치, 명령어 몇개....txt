@@ -1,0 +1,95 @@
+VirtualBox 설치
+CentOS 7 다운로드 하기..(DVD ISO로)(최신버전 말고)
+heidiSQL 설치
+putty.exe 다운로드(putty_nd4.2)
+------------------------------------------------------------------------------------------
+1. 가상머신 만들기
+Linux -> Other linux 64bit?
+메모리 4096mb, 하드 30gb
+저장소 - 비어있음 지우고, 다운받은 CentOS 7 선택
+
+2. 가상머신에 리눅스 설치 후,
+- 시스템 - '부팅순서' - '광디스크' 체크해제(그렇지 않으면 설치화면 또 나옴)
+- 네트워크 - [어댑터2] 탭에서 아래와 같이 설정할 것
+   1) '네트워크 어댑터 사용하기' 체크(활성화)
+   2) '다음에 연결됨' - 어댑터에 브릿지
+   3) 고급-'무작위 모드' - '가상머신에 허용' 선택
+
+* Cent OS 7
+설치 시 '소프트웨어 선택'에서 체크할 것
+화면 왼쪽에서  '★서버 - GUI 사용★' 체크 후,
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+화면 오른쪽에서 아래 목록 체크
+FTP서버, MariaDB 데이터베이스 서버, PostgreSQL 데이터베이스 서버, 호환성 라이브러리, 개발용 툴, 보안
+툴, 시스템 관리 도구
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+* Cent OS 8
+설치 시 '소프트웨어 선택'에서 체크할 것
+화면 왼쪽에서 '서버 - GUI 사용'나 '★서버★' 체크 후,
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+화면 오른쪽에서 아래 목록 체크(젤 최근에 선택한 거)
+-FTP서버, 레거시 UNIX 호환성, 개발용 툴, 그래픽기반 관리툴, 과학기술 지원, 시스템 툴, 보안 툴
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
++++ 네트워크 파일 시스템 클라이언트, 기본웹서버 <- 안함!!!
+
+(아래거는 안함)
+화면 왼쪽에서 '최소설치'체크 후, 화면 오른쪽에서 아래 목록 체크
+-레거시 UNIX 호환성, 개발용 툴, 과학기술 지원, 보안 툴, 시스템 툴
+------------------------------------------------------------------------------------------
+*linux 로그인 계정
+id : root / pw: acorn1234Q!
+------------------------------------------------------------------------------------------
+* ip 확인
+>> ip add show
+linux에서 위 명령어 수행후 3번째 ip -> putty에 Host Name에 적기
+putty-window-appearance에서 font 크기 등 바꾸기
+------------------------------------------------------------------------------------------
+* 리눅스 명령어
+pwd : 현재 작업폴더 확인
+ls : 폴더 내 폴더 및 파일 확인
+cd : change directory
+mkdir : make directory
+rmdir : remove directory
+cd ~ : root directory로 이동
+cp : copy
+rm : remove file
+find / -name test.txt -print
+vi : 명령행/입력/실행명령 모드
+ 명령행 모드에서 동작 - dd 삭제, yy 복사, pp 붙여넣기
+ 입력모드 진입 - i, a, o
+ 실행명령 - :q 종료, :w 저장, :q! 저장않고 종료
+yum : package 설치 이전 rpm을 래퍼
+ ex) yum install maria-server : mariaDB 설치
+서버 관리하기 위해서 text모드로 작업한다.
+ps -ef : 현재 메모리에 실행되는 프로세스 확인
+reboot : 시스템 재부팅
+shutdown -h now : 즉시 시스템 종료
+firewall-cmd : 방화벽
+systemctl : 서비스 제어
+------------------------------------------------------------------------------------------
+* root 로그인 후 ifcfc-enp0s3 파일 수정 과정
+>> cd /etc/sysconfig/network-scripts
+>> vi ifcfc-enp0s3
+파일 열리면 'i키'눌러서 --INSERT--모드로 변경 후 파일 안에
+ONBOOT=no -> ONBOOT=yes로 변경
+esc키 - :(콜론키)wq 입력 => :wq (->파일저장 후 vi편집기 종료하는 과정)
+------------------------------------------------------------------------------------
+>> firewall-cmd --permanent --zone=public --add-port=22/tcp
+>> firewall-cmd --list-services
+>> systemctl start firewalld
+>> systemctl enable firewalld
+>> yum install openssh-clients
+------------------------------------------------------------------------------------
+>> systemctl get-default # 현재모드
+>> systemctl set-default multi-user.target # text모드로 변경
+>> reboot
+
+>> systemctl start mariadb
+>> systemctl stop mariadb
+>> systemctl restart mariadb : setting 변경됐을때 사용
+
+>> ps -ef | grep httpd : 웹서버가 실행중인지 확인(실행되고 있는 경우에는 아래에 실행되는 목록이 출력됨)
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+>> systemctl get-default # 현재모드
+>> systemctl set-default multi-user.target # text모드로 변경
+>> reboot
