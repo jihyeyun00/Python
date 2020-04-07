@@ -1,0 +1,253 @@
+Updatecheck<|||>3<|||>1
+DoUsageStatistics<|||>3<|||>1
+Theme<|||>1<|||>Windows
+SQL Attr Comment Foreground<|||>3<|||>8421504
+SQL Attr ConditionalComment Foreground<|||>3<|||>8421504
+SQL Attr DataType Foreground<|||>3<|||>128
+SQL Attr DelimitedIdentifier Foreground<|||>3<|||>32896
+SQL Attr Function Foreground<|||>3<|||>8388608
+SQL Attr Identifier Foreground<|||>3<|||>32896
+SQL Attr Key Foreground<|||>3<|||>16711680
+SQL Attr Number Foreground<|||>3<|||>8388736
+SQL Attr String Foreground<|||>3<|||>32768
+SQL Attr Symbol Foreground<|||>3<|||>16711680
+SQL Attr TableName Foreground<|||>3<|||>16711935
+SQL Attr Variable Foreground<|||>3<|||>8388736
+FieldColor_Binary<|||>3<|||>8388736
+FieldColor_Datetime<|||>3<|||>128
+FieldColor_Numeric<|||>3<|||>16711680
+FieldColor_Other<|||>3<|||>32896
+FieldColor_Real<|||>3<|||>16711752
+FieldColor_Spatial<|||>3<|||>8421376
+FieldColor_Text<|||>3<|||>32768
+UpdatecheckLastrun<|||>1<|||>2020-03-09 18:28:12
+LastUsageStatisticCall<|||>1<|||>2020-02-24 18:50:18
+SessionManager_ListWidth<|||>3<|||>250
+SessionManager_WindowWidth<|||>3<|||>800
+SessionManager_WindowHeight<|||>3<|||>450
+ColWidths_connform.ListSessions<|||>1<|||>204,63,63,63,63,63,42
+ColsVisible_connform.ListSessions<|||>1<|||>0
+ColPositions_connform.ListSessions<|||>1<|||>0,1,2,3,4,5,6
+ColSort_connform.ListSessions<|||>1<|||>0,0
+MainWinOnMonitor<|||>3<|||>0
+ColWidths_MainForm.ListDatabases<|||>1<|||>188,100,63,63,63,63,63,63,63,63,150
+ColsVisible_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColPositions_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColSort_MainForm.ListDatabases<|||>1<|||>0,0
+ColWidths_MainForm.ListVariables<|||>1<|||>200,250,338
+ColsVisible_MainForm.ListVariables<|||>1<|||>0,1,2
+ColPositions_MainForm.ListVariables<|||>1<|||>0,1,2
+ColSort_MainForm.ListVariables<|||>1<|||>0,0
+ColWidths_MainForm.ListStatus<|||>1<|||>200,338,125,125
+ColsVisible_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColPositions_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColSort_MainForm.ListStatus<|||>1<|||>0,0
+ColWidths_MainForm.ListProcesses<|||>1<|||>88,100,100,100,100,63,63,10
+ColsVisible_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColPositions_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColSort_MainForm.ListProcesses<|||>1<|||>0,1
+ColWidths_MainForm.ListCommandStats<|||>1<|||>150,125,125,125,263
+ColsVisible_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColPositions_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColSort_MainForm.ListCommandStats<|||>1<|||>1,1
+ColWidths_MainForm.ListTables<|||>1<|||>150,88,88,150,150,88,125,63,88,88,88,88,88,113,150,88,88,88,63
+ColsVisible_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,18
+ColPositions_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
+ColSort_MainForm.ListTables<|||>1<|||>0,0
+LastSessions<|||>1<|||>new
+LastActiveSession<|||>1<|||>new
+SessionManager_WindowLeft<|||>3<|||>342
+SessionManager_WindowTop<|||>3<|||>56
+MainWinLeft<|||>3<|||>517
+MainWinTop<|||>3<|||>34
+CreateDbCollation<|||>1<|||>utf8_general_ci
+FileDialogEncoding_MainForm<|||>3<|||>0
+MemoEditorWidth<|||>3<|||>136
+ColWidths_frmTableEditor.listColumns<|||>1<|||>46,139,154,90,136,89,103,155,130,140,100,100
+ColsVisible_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColPositions_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColSort_frmTableEditor.listColumns<|||>1<|||>-1,0
+ColWidths_frmTableEditor.treeIndexes<|||>1<|||>440,100,80
+ColsVisible_frmTableEditor.treeIndexes<|||>1<|||>0,1,2
+ColPositions_frmTableEditor.treeIndexes<|||>1<|||>0,1,2
+ColSort_frmTableEditor.treeIndexes<|||>1<|||>-1,0
+ColWidths_frmTableEditor.listForeignKeys<|||>1<|||>217,80,100,80,80,80
+ColsVisible_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColPositions_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColSort_frmTableEditor.listForeignKeys<|||>1<|||>-1,0
+querymemoheight<|||>3<|||>207
+MainWinMaximized<|||>3<|||>1
+sqloutheight<|||>3<|||>96
+MainWinWidth<|||>3<|||>840
+MainWinHeight<|||>3<|||>525
+dbtreewidth<|||>3<|||>248
+CoolBand0Index<|||>3<|||>0
+CoolBand0Break<|||>3<|||>1
+CoolBand0Width<|||>3<|||>818
+CoolBand1Index<|||>3<|||>1
+CoolBand1Break<|||>3<|||>1
+CoolBand1Width<|||>3<|||>818
+ExportSQL_CreateDatabases<|||>3<|||>1
+ExportSQL_CreateTables<|||>3<|||>1
+ExportSQL_DataHow<|||>3<|||>2
+ExportSQL_Filenames<|||>1<|||>C:\Users\jhjhy\OneDrive\바탕 화면\kakao_project\시행착오내역\public_api.sql<{{{><}}}>public_api<{{{><}}}>
+FindDialogSearchHistory<|||>1<|||>5011010100110970014030085<{{{><}}}>5011003202000020005046710<{{{><}}}>
+SQLFile0<|||>1<|||>C:\Users\jhjhy\OneDrive\바탕 화면\kakao_project\시행착오내역\public_api.sql
+SQLFile1<|||>1<|||>C:\Users\jhjhy\OneDrive\바탕 화면\kakao_project\KAKAO_DB.sql
+SQLFile2<|||>1<|||>C:\Users\jhjhy\Python\python_study\ho.sql
+SQLFile3<|||>1<|||>C:\Users\jhjhy\Python\mariaDB\jeju_db.sql
+SQLFile4<|||>1<|||>C:\Users\jhjhy\Python\mariaDB\001_2_school.sql
+SQLFile5<|||>1<|||>C:\Users\jhjhy\addressDB\3.합쳐서 주소 만들기(주소DB).sql
+SQLFile6<|||>1<|||>C:\Users\jhjhy\addressDB\1.테이블 생성.sql
+SQLFile7<|||>1<|||>C:\Users\jhjhy\addressDB\2.파일로 데이터 넣기(주소DB).sql
+SQLFile8<|||>1<|||>C:\Users\jhjhy\AppData\Roaming\HeidiSQL\Backups\query-tab-2020-02-24_19-39-58-823.sql
+Servers\mymaria\SessionCreated<|||>1<|||>2020-03-09 18:46:55
+Servers\mymaria\Host<|||>1<|||>127.0.0.1
+Servers\mymaria\WindowsAuth<|||>3<|||>0
+Servers\mymaria\CleartextPluginEnabled<|||>3<|||>0
+Servers\mymaria\User<|||>1<|||>root
+Servers\mymaria\Password<|||>1<|||>343735374
+Servers\mymaria\LoginPrompt<|||>3<|||>0
+Servers\mymaria\Port<|||>1<|||>3307
+Servers\mymaria\NetType<|||>3<|||>0
+Servers\mymaria\Compressed<|||>3<|||>0
+Servers\mymaria\LocalTimeZone<|||>3<|||>0
+Servers\mymaria\QueryTimeout<|||>3<|||>30
+Servers\mymaria\KeepAlive<|||>3<|||>20
+Servers\mymaria\FullTableStatus<|||>3<|||>1
+Servers\mymaria\Databases<|||>1<|||>
+Servers\mymaria\Library<|||>1<|||>libmariadb.dll
+Servers\mymaria\Comment<|||>1<|||>
+Servers\mymaria\StartupScriptFilename<|||>1<|||>
+Servers\mymaria\TreeBackground<|||>3<|||>536870911
+Servers\mymaria\SSHtunnelHost<|||>1<|||>
+Servers\mymaria\SSHtunnelHostPort<|||>3<|||>22
+Servers\mymaria\SSHtunnelUser<|||>1<|||>
+Servers\mymaria\SSHtunnelPassword<|||>1<|||>4
+Servers\mymaria\SSHtunnelTimeout<|||>3<|||>4
+Servers\mymaria\SSHtunnelPrivateKey<|||>1<|||>
+Servers\mymaria\SSHtunnelPort<|||>3<|||>3307
+Servers\mymaria\SSL_Active<|||>3<|||>0
+Servers\mymaria\SSL_Key<|||>1<|||>
+Servers\mymaria\SSL_Cert<|||>1<|||>
+Servers\mymaria\SSL_CA<|||>1<|||>
+Servers\mymaria\SSL_Cipher<|||>1<|||>
+Servers\mymaria\RefusedCount<|||>3<|||>1
+Servers\mymaria\ServerVersionFull<|||>1<|||>10.4.6-MariaDB - mariadb.org binary distribution
+Servers\mymaria\ConnectCount<|||>3<|||>10
+Servers\mymaria\ServerVersion<|||>3<|||>100406
+Servers\mymaria\LastConnect<|||>1<|||>2020-03-10 08:14:10
+Servers\mymaria\lastUsedDB<|||>1<|||>
+Servers\mymaria\QueryHistory\1<|||>1<|||>2020-03-09 23:29:08|public|108|create table add_info_m ( <{{{><}}}>mgmt_num varchar(25) not null comment '관리번호' primary KEY, <{{{><}}}>adm_dong_cd varchar(10) null COMMENT '행정동코드', <{{{><}}}>adm_dong_nm varchar(50) null COMMENT '행정동명', <{{{><}}}>zipcode varchar(5) null COMMENT '우편번호', <{{{><}}}>zipcode_seq varchar(3) null COMMENT '우편번호일련번호', <{{{><}}}>plent_dlvr_nm varchar(100) null COMMENT '다량배달처명', <{{{><}}}>build_rgst_nm varchar(100) null COMMENT '건축물대장건물명', <{{{><}}}>sgg_build_nm varchar(100) null COMMENT '시군구건물명', <{{{><}}}>multi_unit_yn varchar(1) null COMMENT '공동주택여부' <{{{><}}}>);<{{{><}}}><{{{><}}}>create table jibun_info_m ( <{{{><}}}>mgmt_num varchar(25) not null COMMENT '관리번호', <{{{><}}}>seq varchar(12) not null COMMENT '일련번호', <{{{><}}}>law_dong_cd varchar(10) null COMMENT '법정동코드', <{{{><}}}>sd_nm varchar(50) null COMMENT '시도명', <{{{><}}}>sgg_nm varchar(50) null COMMENT '시군구명', <{{{><}}}>law_umd_nm varchar(50) null COMMENT '법정읍면동명', <{{{><}}}>law_ri_nm varchar(50) null COMMENT '법정리명', <{{{><}}}>san_yn varchar(1) null COMMENT '산여부', <{{{><}}}>jb_main_num int(4) null COMMENT '지번본번(번지)', <{{{><}}}>jb_sub_num int(4) null COMMENT '지번본번(호)', <{{{><}}}>main_yn varchar(1) null comment '대표여부', primary key (mgmt_num, seq) <{{{><}}}>);<{{{><}}}><{{{><}}}>create table juso_info_m ( <{{{><}}}>mgmt_num varchar(25) not null comment '관리번호' primary KEY, <{{{><}}}>road_nm_cd varchar(12) not null COMMENT '도로명코드', <{{{><}}}>umd_seq varchar(2) not null COMMENT '읍면동일련번호', <{{{><}}}>basement_yn varchar(1) null COMMENT '지하여부', <{{{><}}}>build_main_num int(5) null COMMENT '건물본번', <{{{><}}}>build_sub_num int(5) null COMMENT '건물부번', <{{{><}}}>base_area_num varchar(5) null COMMENT '기초구역번호', <{{{><}}}>update_type_cd varchar(2) null COMMENT '변경사유코드', <{{{><}}}>anncmt_date varchar(8) null COMMENT '고시일자', <{{{><}}}>orgn_road_nm_addr varchar(100) null COMMENT '변경전도로명주소', <{{{><}}}>get_detail_addr_yn varchar(1) null COMMENT '상세주소부여여부' <{{{><}}}>);<{{{><}}}><{{{><}}}>create table road_cd_info_m ( <{{{><}}}>road_nm_cd varchar(12) not null COMMENT '도로명코드', <{{{><}}}>umd_seq varchar(2) not null COMMENT '읍면동일련번호', <{{{><}}}>road_nm varchar(160) null COMMENT '도로명', <{{{><}}}>road_roma_nm varchar(160) null COMMENT '도로명로마자', <{{{><}}}>sd_nm varchar(50) null COMMENT '시도명',<{{{><}}}>sd_roma_nm varchar(100) null COMMENT '시도로마자', <{{{><}}}>sgg_nm varchar(50) null COMMENT '시군구명', <{{{><}}}>sgg_roma_nm varchar(100) null COMMENT '시군구로마자', <{{{><}}}>umd_nm varchar(50) null COMMENT '읍면동명', <{{{><}}}>umd_roma_nm varchar(100) null COMMENT '읍면동로마자', <{{{><}}}>umd_gb varchar(1) null COMMENT '읍면동구분', <{{{><}}}>umd_cd varchar(3) null COMMENT '읍면동코드', <{{{><}}}>use_yn varchar(1) null COMMENT '사용여부', <{{{><}}}>update_rs_cd varchar(1) null COMMENT '변경사유', <{{{><}}}>update_his_info varchar(14) null COMMENT '변경이력정보', <{{{><}}}>anncmt_date varchar(8) null COMMENT '고시일자', <{{{><}}}>erase_date varchar(8) null comment '말소일자', primary key (road_nm_cd, umd_seq) <{{{><}}}>);<{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}>
+Servers\mymaria\QueryHistory\2<|||>1<|||>2020-03-09 23:44:02|address_svc_m|5922|<{{{><}}}>LOAD DATA LOCAL INFILE 'C:/Users/jhjhy/addressDB/addressDB/add_jeju.txt' <{{{><}}}>REPLACE <{{{><}}}>INTO TABLE add_info_m <{{{><}}}>FIELDS TERMINATED BY '|' <{{{><}}}>OPTIONALLY ENCLOSED BY '' <{{{><}}}>LINES TERMINATED BY '\n' <{{{><}}}>(<{{{><}}}>@mgmt_num, <{{{><}}}>@adm_dong_cd,<{{{><}}}>@adm_dong_nm, <{{{><}}}>@zipcode, <{{{><}}}>@zipcode_seq, <{{{><}}}>@plent_dlvr_nm, <{{{><}}}>@build_rgst_nm, <{{{><}}}>@sgg_build_nm, <{{{><}}}>@multi_unit_yn<{{{><}}}>) <{{{><}}}><{{{><}}}>SET <{{{><}}}>mgmt_num=@mgmt_num, <{{{><}}}>adm_dong_cd=@adm_dong_cd,<{{{><}}}>adm_dong_nm=@adm_dong_nm, <{{{><}}}>zipcode=@zipcode, <{{{><}}}>zipcode_seq=@zipcode_seq, <{{{><}}}>plent_dlvr_nm=@plent_dlvr_nm, <{{{><}}}>build_rgst_nm=@build_rgst_nm, <{{{><}}}>sgg_build_nm=@sgg_build_nm, <{{{><}}}>multi_unit_yn=@multi_unit_yn;<{{{><}}}><{{{><}}}>LOAD DATA LOCAL INFILE 'C:/Users/jhjhy/addressDB/addressDB/jibun_jeju.txt'<{{{><}}}>REPLACE <{{{><}}}>INTO TABLE jibun_info_m<{{{><}}}>FIELDS TERMINATED BY '|' <{{{><}}}>OPTIONALLY ENCLOSED BY '' <{{{><}}}>LINES TERMINATED BY '\n' <{{{><}}}>(@mgmt_num, <{{{><}}}>@seq, <{{{><}}}>@law_dong_cd, <{{{><}}}>@sd_nm, <{{{><}}}>@sgg_nm, <{{{><}}}>@law_umd_nm, <{{{><}}}>@law_ri_nm,<{{{><}}}>@san_yn, <{{{><}}}>@jb_main_num, <{{{><}}}>@jb_sub_num, <{{{><}}}>@main_yn) <{{{><}}}><{{{><}}}>SET <{{{><}}}>mgmt_num = @mgmt_num, <{{{><}}}>seq = @seq, <{{{><}}}>law_dong_cd = @law_dong_cd, <{{{><}}}>sd_nm = @sd_nm, <{{{><}}}>sgg_nm = @sgg_nm, <{{{><}}}>law_umd_nm = @law_umd_nm, <{{{><}}}>law_ri_nm = @law_ri_nm, <{{{><}}}>san_yn = @san_yn, <{{{><}}}>jb_main_num = @jb_main_num, <{{{><}}}>jb_sub_num = @jb_sub_num, <{{{><}}}>main_yn = @main_yn;<{{{><}}}><{{{><}}}>LOAD DATA LOCAL INFILE 'C:/Users/jhjhy/addressDB/addressDB/juso_jeju.txt' <{{{><}}}>REPLACE <{{{><}}}>INTO TABLE juso_info_m <{{{><}}}>FIELDS TERMINATED BY '|' <{{{><}}}>OPTIONALLY ENCLOSED BY '' <{{{><}}}>LINES TERMINATED BY '\n' <{{{><}}}>(@mgmt_num, <{{{><}}}>@road_nm_cd, <{{{><}}}>@umd_seq, <{{{><}}}>@basement_yn, <{{{><}}}>@build_main_num, <{{{><}}}>@build_sub_num, <{{{><}}}>@base_area_num, <{{{><}}}>@update_type_cd, <{{{><}}}>@anncmt_date, <{{{><}}}>@orgn_road_nm_addr, <{{{><}}}>@get_detail_addr_yn) <{{{><}}}><{{{><}}}>SET <{{{><}}}>mgmt_num=@mgmt_num, <{{{><}}}>road_nm_cd=@road_nm_cd, <{{{><}}}>umd_seq=@umd_seq, <{{{><}}}>basement_yn=@basement_yn, <{{{><}}}>build_main_num=@build_main_num, <{{{><}}}>build_sub_num=@build_sub_num, <{{{><}}}>base_area_num=@base_area_num, <{{{><}}}>update_type_cd=@update_type_cd, <{{{><}}}>anncmt_date=@anncmt_date, <{{{><}}}>orgn_road_nm_addr=@orgn_road_nm_addr, <{{{><}}}>get_detail_addr_yn=@get_detail_addr_yn;<{{{><}}}><{{{><}}}><{{{><}}}><{{{><}}}>LOAD DATA LOCAL INFILE 'C:/Users/jhjhy/addressDB/addressDB/road_cd.txt'<{{{><}}}>REPLACE<{{{><}}}>INTO TABLE road_cd_info_m<{{{><}}}>FIELDS TERMINATED BY '|'<{{{><}}}>OPTIONALLY ENCLOSED BY ''<{{{><}}}>LINES TERMINATED BY '\n'<{{{><}}}>(@road_nm_cd,<{{{><}}}>@road_nm,<{{{><}}}>@road_roma_nm,<{{{><}}}>@umd_seq,<{{{><}}}>@sd_nm,<{{{><}}}>@sd_roma_nm,<{{{><}}}>@sgg_nm,<{{{><}}}>@sgg_roma_nm,<{{{><}}}>@umd_nm,<{{{><}}}>@umd_roma_nm,<{{{><}}}>@umd_gb,<{{{><}}}>@umd_cd,<{{{><}}}>@use_yn,<{{{><}}}>@update_rs_cd,<{{{><}}}>@update_his_info,<{{{><}}}>@anncmt_date,<{{{><}}}>@erase_date)<{{{><}}}>SET<{{{><}}}>road_nm_cd = @road_nm_cd,<{{{><}}}>umd_seq = @umd_seq,<{{{><}}}>road_nm = @road_nm,<{{{><}}}>road_roma_nm = @road_roma_nm,<{{{><}}}>sd_nm = @sd_nm,<{{{><}}}>sd_roma_nm = @sd_roma_nm,<{{{><}}}>sgg_nm = @sgg_nm,<{{{><}}}>sgg_roma_nm = @sgg_roma_nm,<{{{><}}}>umd_nm = @umd_nm,<{{{><}}}>umd_roma_nm = @umd_roma_nm,<{{{><}}}>umd_gb = @umd_gb,<{{{><}}}>umd_cd = @umd_cd,<{{{><}}}>use_yn = @use_yn,<{{{><}}}>update_rs_cd = @update_rs_cd,<{{{><}}}>update_his_info = @update_his_info,<{{{><}}}>anncmt_date = @anncmt_date,<{{{><}}}>erase_date = @erase_date<{{{><}}}>;
+Servers\new\SessionCreated<|||>1<|||>2020-03-10 08:20:08
+Servers\new\Host<|||>1<|||>127.0.0.1
+Servers\new\WindowsAuth<|||>3<|||>0
+Servers\new\CleartextPluginEnabled<|||>3<|||>0
+Servers\new\User<|||>1<|||>root
+Servers\new\Password<|||>1<|||>383B393B8
+Servers\new\LoginPrompt<|||>3<|||>0
+Servers\new\Port<|||>1<|||>3307
+Servers\new\NetType<|||>3<|||>0
+Servers\new\Compressed<|||>3<|||>0
+Servers\new\LocalTimeZone<|||>3<|||>0
+Servers\new\QueryTimeout<|||>3<|||>30
+Servers\new\KeepAlive<|||>3<|||>20
+Servers\new\FullTableStatus<|||>3<|||>1
+Servers\new\Databases<|||>1<|||>
+Servers\new\Library<|||>1<|||>libmariadb.dll
+Servers\new\Comment<|||>1<|||>
+Servers\new\StartupScriptFilename<|||>1<|||>
+Servers\new\TreeBackground<|||>3<|||>536870911
+Servers\new\SSHtunnelHost<|||>1<|||>
+Servers\new\SSHtunnelHostPort<|||>3<|||>22
+Servers\new\SSHtunnelUser<|||>1<|||>
+Servers\new\SSHtunnelPassword<|||>1<|||>5
+Servers\new\SSHtunnelTimeout<|||>3<|||>4
+Servers\new\SSHtunnelPrivateKey<|||>1<|||>
+Servers\new\SSHtunnelPort<|||>3<|||>3307
+Servers\new\SSL_Active<|||>3<|||>0
+Servers\new\SSL_Key<|||>1<|||>
+Servers\new\SSL_Cert<|||>1<|||>
+Servers\new\SSL_CA<|||>1<|||>
+Servers\new\SSL_Cipher<|||>1<|||>
+Servers\new\ServerVersionFull<|||>1<|||>10.4.6-MariaDB - mariadb.org binary distribution
+Servers\new\ConnectCount<|||>3<|||>12
+Servers\new\ServerVersion<|||>3<|||>100406
+Servers\new\LastConnect<|||>1<|||>2020-03-10 10:22:29
+Servers\new\lastUsedDB<|||>1<|||>address_svc_m
+Servers\Unnamed\SessionCreated<|||>1<|||>2020-02-24 18:52:05
+Servers\Unnamed\Host<|||>1<|||>127.0.0.1
+Servers\Unnamed\WindowsAuth<|||>3<|||>0
+Servers\Unnamed\CleartextPluginEnabled<|||>3<|||>0
+Servers\Unnamed\User<|||>1<|||>root
+Servers\Unnamed\Password<|||>1<|||>373A383A7
+Servers\Unnamed\LoginPrompt<|||>3<|||>0
+Servers\Unnamed\Port<|||>1<|||>3307
+Servers\Unnamed\NetType<|||>3<|||>0
+Servers\Unnamed\Compressed<|||>3<|||>0
+Servers\Unnamed\LocalTimeZone<|||>3<|||>0
+Servers\Unnamed\QueryTimeout<|||>3<|||>30
+Servers\Unnamed\KeepAlive<|||>3<|||>20
+Servers\Unnamed\FullTableStatus<|||>3<|||>1
+Servers\Unnamed\Databases<|||>1<|||>
+Servers\Unnamed\Library<|||>1<|||>libmariadb.dll
+Servers\Unnamed\Comment<|||>1<|||>
+Servers\Unnamed\StartupScriptFilename<|||>1<|||>
+Servers\Unnamed\TreeBackground<|||>3<|||>536870911
+Servers\Unnamed\SSHtunnelHost<|||>1<|||>
+Servers\Unnamed\SSHtunnelHostPort<|||>3<|||>22
+Servers\Unnamed\SSHtunnelUser<|||>1<|||>
+Servers\Unnamed\SSHtunnelPassword<|||>1<|||>8
+Servers\Unnamed\SSHtunnelTimeout<|||>3<|||>4
+Servers\Unnamed\SSHtunnelPrivateKey<|||>1<|||>
+Servers\Unnamed\SSHtunnelPort<|||>3<|||>3307
+Servers\Unnamed\SSL_Active<|||>3<|||>0
+Servers\Unnamed\SSL_Key<|||>1<|||>
+Servers\Unnamed\SSL_Cert<|||>1<|||>
+Servers\Unnamed\SSL_CA<|||>1<|||>
+Servers\Unnamed\SSL_Cipher<|||>1<|||>
+Servers\Unnamed\ServerVersionFull<|||>1<|||>10.4.6-MariaDB - mariadb.org binary distribution
+Servers\Unnamed\ConnectCount<|||>3<|||>46
+Servers\Unnamed\ServerVersion<|||>3<|||>100406
+Servers\Unnamed\LastConnect<|||>1<|||>2020-03-10 08:19:20
+Servers\Unnamed\lastUsedDB<|||>1<|||>address_svc_m
+Servers\Unnamed\address_svc_m|road_cd_info_m\Sort<|||>1<|||>0_update_rs_cd|0_sd_nm|
+Servers\Unnamed\database1|jibun_info_m\Sort<|||>1<|||>1_sd_nm|
+Servers\Unnamed\QueryHistory\1<|||>1<|||>2020-03-03 22:31:32|mysql_1|0|SHOW DATABASES;
+Servers\Unnamed\QueryHistory\2<|||>1<|||>2020-03-03 22:34:07|mysql_1|15|SHOW DATABASES;<{{{><}}}><{{{><}}}>DROP DATABASE mysql_1;
+Servers\Unnamed\QueryHistory\6<|||>1<|||>2020-03-05 16:56:06|sql|0|
+Servers\Unnamed\QueryHistory\5<|||>1<|||>2020-03-05 17:33:45|sql|32|create table juso_info_m<{{{><}}}>(<{{{><}}}>	mgmt_num varchar(25) not null comment '관리번호'<{{{><}}}>		primary key,<{{{><}}}>	road_nm_cd varchar(12) not null comment '도로명코드',<{{{><}}}>	umd_seq varchar(2) not null comment '읍면동일련번호',<{{{><}}}>	basement_yn varchar(1) null comment '지하여부',<{{{><}}}>	build_main_num int(5) null comment '건물본번',<{{{><}}}>	build_sub_num int(5) null comment '건물부번',<{{{><}}}>	base_area_num varchar(5) null comment '기초구역번호',<{{{><}}}>	update_type_cd varchar(2) null comment '변경사유코드',<{{{><}}}>	anncmt_date varchar(8) null comment '고시일자',<{{{><}}}>	orgn_road_nm_addr varchar(100) null comment '변경전도로명주소',<{{{><}}}>	get_detail_addr_yn varchar(1) null comment '상세주소부여여부'<{{{><}}}>)
+Servers\Unnamed\QueryHistory\7<|||>1<|||>2020-03-05 17:36:25|database1|1735|LOAD DATA LOCAL INFILE '/Users/jhjhy/test/juso_kangwondo.txt'<{{{><}}}>REPLACE<{{{><}}}>INTO TABLE juso_info_m<{{{><}}}>FIELDS TERMINATED BY '|'<{{{><}}}>OPTIONALLY ENCLOSED BY ''<{{{><}}}>LINES TERMINATED BY '\n'
+Servers\Unnamed\QueryHistory\9<|||>1<|||>2020-03-05 18:03:45|sql|31|create table road_cd_info_m<{{{><}}}>(<{{{><}}}>	road_nm_cd varchar(12) not null comment '도로명코드',<{{{><}}}>	umd_seq varchar(2) not null comment '읍면동일련번호',<{{{><}}}>	road_nm varchar(160) null comment '도로명',<{{{><}}}>	road_roma_nm varchar(160) null comment '도로명로마자',<{{{><}}}>	sd_nm varchar(50) null comment '시도명',<{{{><}}}>	sd_roma_nm varchar(100) null comment '시도로마자',<{{{><}}}>	sgg_nm varchar(50) null comment '시군구명',<{{{><}}}>	sgg_roma_nm varchar(100) null comment '시군구로마자',<{{{><}}}>	umd_nm varchar(50) null comment '읍면동명',<{{{><}}}>	umd_roma_nm varchar(100) null comment '읍면동로마자',<{{{><}}}>	umd_gb varchar(1) null comment '읍면동구분',<{{{><}}}>	umd_cd varchar(3) null comment '읍면동코드',<{{{><}}}>	use_yn varchar(1) null comment '사용여부',<{{{><}}}>	update_rs_cd varchar(1) null comment '변경사유',<{{{><}}}>	update_his_info varchar(14) null comment '변경이력정보',<{{{><}}}>	anncmt_date varchar(8) null comment '고시일자',<{{{><}}}>	erase_date varchar(8) null comment '말소일자',<{{{><}}}>	primary key (road_nm_cd, umd_seq)<{{{><}}}>);<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\10<|||>1<|||>2020-03-05 18:36:14|sql|3125|LOAD DATA LOCAL INFILE '/Users/jhjhy/test/juso_seoul.txt'<{{{><}}}>REPLACE<{{{><}}}>INTO TABLE juso_info_m<{{{><}}}>FIELDS TERMINATED BY '|'<{{{><}}}>OPTIONALLY ENCLOSED BY ''<{{{><}}}>LINES TERMINATED BY '\n'
+Servers\Unnamed\QueryHistory\8<|||>1<|||>2020-03-05 21:31:54|database1|31|create table jibun_info_m<{{{><}}}>(<{{{><}}}>	mgmt_num varchar(25) not null comment '관리번호',<{{{><}}}>	seq varchar(12) not null comment '일련번호',<{{{><}}}>	law_dong_cd varchar(10) null comment '법정동코드',<{{{><}}}>	sd_nm varchar(50) null comment '시도명',<{{{><}}}>	sgg_nm varchar(50) null comment '시군구명',<{{{><}}}>	law_umd_nm varchar(50) null comment '법정읍면동명',<{{{><}}}>	law_ri_nm varchar(50) null comment '법정리명',<{{{><}}}>	san_yn varchar(1) null comment '산여부',<{{{><}}}>	jb_main_num int(4) null comment '지번본번(번지)',<{{{><}}}>	jb_sub_num int(4) null comment '지번본번(호)',<{{{><}}}>	main_yn varchar(1) null comment '대표여부',<{{{><}}}>	primary key (mgmt_num, seq)<{{{><}}}>);
+Servers\Unnamed\QueryHistory\3<|||>1<|||>2020-03-05 21:35:52|database1|3312|LOAD DATA LOCAL INFILE '/Users/jhjhy/test/abcd.txt'<{{{><}}}>REPLACE<{{{><}}}>INTO TABLE jibun_info_m<{{{><}}}>FIELDS TERMINATED BY '|'<{{{><}}}>OPTIONALLY ENCLOSED BY ''<{{{><}}}>LINES TERMINATED BY '\n'
+Servers\Unnamed\QueryHistory\11<|||>1<|||>2020-03-05 21:56:14|database1|31|create table add_info_m<{{{><}}}>(<{{{><}}}>	mgmt_num varchar(25) not null comment '관리번호'<{{{><}}}>		primary key,<{{{><}}}>	adm_dong_cd varchar(10) null comment '행정동코드',<{{{><}}}>	adm_dong_nm varchar(50) null comment '행정동명',<{{{><}}}>	zipcode varchar(5) null comment '우편번호',<{{{><}}}>	zipcode_seq varchar(3) null comment '우편번호일련번호',<{{{><}}}>	plent_dlvr_nm varchar(100) null comment '다량배달처명',<{{{><}}}>	build_rgst_nm varchar(100) null comment '건축물대장건물명',<{{{><}}}>	sgg_build_nm varchar(100) null comment '시군구건물명',<{{{><}}}>	multi_unit_yn varchar(1) null comment '공동주택여부'<{{{><}}}>)
+Servers\Unnamed\QueryHistory\12<|||>1<|||>2020-03-05 22:20:45|database1|31|create table juso_info_m<{{{><}}}>(<{{{><}}}>	mgmt_num varchar(25) not null comment '관리번호'<{{{><}}}>		primary key,<{{{><}}}>	road_nm_cd varchar(12) not null comment '도로명코드',<{{{><}}}>	umd_seq varchar(2) not null comment '읍면동일련번호',<{{{><}}}>	basement_yn varchar(1) null comment '지하여부',<{{{><}}}>	build_main_num int(5) null comment '건물본번',<{{{><}}}>	build_sub_num int(5) null comment '건물부번',<{{{><}}}>	base_area_num varchar(5) null comment '기초구역번호',<{{{><}}}>	update_type_cd varchar(2) null comment '변경사유코드',<{{{><}}}>	anncmt_date varchar(8) null comment '고시일자',<{{{><}}}>	orgn_road_nm_addr varchar(100) null comment '변경전도로명주소',<{{{><}}}>	get_detail_addr_yn varchar(1) null comment '상세주소부여여부'<{{{><}}}>);<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\4<|||>1<|||>2020-03-05 22:22:26|database1|3375|LOAD DATA LOCAL INFILE '/Users/jhjhy/jb/jb_seoul.txt'<{{{><}}}>REPLACE<{{{><}}}>INTO TABLE jibun_info_m<{{{><}}}>FIELDS TERMINATED BY '|'<{{{><}}}>OPTIONALLY ENCLOSED BY ''<{{{><}}}>LINES TERMINATED BY '\n'<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\13<|||>1<|||>2020-03-05 22:24:30|database1|1250|LOAD DATA LOCAL INFILE '/Users/jhjhy/jb/jb_incheon.txt'<{{{><}}}>REPLACE<{{{><}}}>INTO TABLE jibun_info_m<{{{><}}}>FIELDS TERMINATED BY '|'<{{{><}}}>OPTIONALLY ENCLOSED BY ''<{{{><}}}>LINES TERMINATED BY '\n'<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\15<|||>1<|||>2020-03-05 22:41:54|database1|3078|LOAD DATA LOCAL INFILE '/Users/jhjhy/jb/jb_kangwondo.txt'<{{{><}}}>REPLACE<{{{><}}}>INTO TABLE jibun_info_m<{{{><}}}>FIELDS TERMINATED BY '|'<{{{><}}}>OPTIONALLY ENCLOSED BY ''<{{{><}}}>LINES TERMINATED BY '\n'<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\16<|||>1<|||>2020-03-05 22:44:08|database1|2890|LOAD DATA LOCAL INFILE '/Users/jhjhy/js/js_seoul.txt'<{{{><}}}>REPLACE<{{{><}}}>INTO TABLE juso_info_m<{{{><}}}>FIELDS TERMINATED BY '|'<{{{><}}}>OPTIONALLY ENCLOSED BY ''<{{{><}}}>LINES TERMINATED BY '\n'<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\17<|||>1<|||>2020-03-05 22:45:19|database1|2485|LOAD DATA LOCAL INFILE '/Users/jhjhy/js/juso_kangwondo.txt'<{{{><}}}>REPLACE<{{{><}}}>INTO TABLE juso_info_m<{{{><}}}>FIELDS TERMINATED BY '|'<{{{><}}}>OPTIONALLY ENCLOSED BY ''<{{{><}}}>LINES TERMINATED BY '\n'<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\18<|||>1<|||>2020-03-05 23:01:23|database1|32|create table road_cd_info_m<{{{><}}}>(<{{{><}}}>	road_nm_cd varchar(12) not null comment '도로명코드',<{{{><}}}>	umd_seq varchar(2) not null comment '읍면동일련번호',<{{{><}}}>	road_nm varchar(160) null comment '도로명',<{{{><}}}>	road_roma_nm varchar(160) null comment '도로명로마자',<{{{><}}}>	sd_nm varchar(50) null comment '시도명',<{{{><}}}>	sd_roma_nm varchar(100) null comment '시도로마자',<{{{><}}}>	sgg_nm varchar(50) null comment '시군구명',<{{{><}}}>	sgg_roma_nm varchar(100) null comment '시군구로마자',<{{{><}}}>	umd_nm varchar(50) null comment '읍면동명',<{{{><}}}>	umd_roma_nm varchar(100) null comment '읍면동로마자',<{{{><}}}>	umd_gb varchar(1) null comment '읍면동구분',<{{{><}}}>	umd_cd varchar(3) null comment '읍면동코드',<{{{><}}}>	use_yn varchar(1) null comment '사용여부',<{{{><}}}>	update_rs_cd varchar(1) null comment '변경사유',<{{{><}}}>	update_his_info varchar(14) null comment '변경이력정보',<{{{><}}}>	anncmt_date varchar(8) null comment '고시일자',<{{{><}}}>	erase_date varchar(8) null comment '말소일자',<{{{><}}}>	primary key (road_nm_cd, umd_seq)<{{{><}}}>)
+Servers\Unnamed\QueryHistory\20<|||>1<|||>2020-03-05 23:08:46|database1|3625|LOAD DATA LOCAL INFILE '/Users/jhjhy/bg/add_seoul.txt'<{{{><}}}>REPLACE<{{{><}}}>INTO TABLE add_info_m<{{{><}}}>FIELDS TERMINATED BY '|'<{{{><}}}>OPTIONALLY ENCLOSED BY ''<{{{><}}}>LINES TERMINATED BY '\n'
+Servers\Unnamed\QueryHistory\19<|||>1<|||>2020-03-09 17:12:31|database1|1562|LOAD DATA LOCAL INFILE '/Users/jhjhy/test/js/juso_kangwondo.txt' REPLACE INTO TABLE juso_info_m FIELDS TERMINATED BY '|' OPTIONALLY ENCLOSED BY '' LINES TERMINATED BY '\n'<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\14<|||>1<|||>2020-03-09 17:15:41|database1|1078|LOAD DATA LOCAL INFILE '/Users/jhjhy/test/jb/jb_incheon.txt' REPLACE INTO TABLE jibun_info_m FIELDS TERMINATED BY '|' OPTIONALLY ENCLOSED BY '' LINES TERMINATED BY '\n'<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\21<|||>1<|||>2020-03-09 17:20:00|database1|0|create database address_svc_m;
+Servers\Unnamed\QueryHistory\23<|||>1<|||>2020-03-09 17:20:11|address_svc_m|0|use address_svc_m;
+Servers\Unnamed\QueryHistory\24<|||>1<|||>2020-03-09 17:24:30|address_svc_m|110|<{{{><}}}>create table add_info_m ( <{{{><}}}>mgmt_num varchar(25) not null comment '관리번호' primary key, <{{{><}}}>adm_dong_cd varchar(10) null comment '행정동코드', <{{{><}}}>adm_dong_nm varchar(50) null comment '행정동명', <{{{><}}}>zipcode varchar(5) null comment '우편번호', <{{{><}}}>zipcode_seq varchar(3) null comment '우편번호일련번호', <{{{><}}}>plent_dlvr_nm varchar(100) null comment '다량배달처명', <{{{><}}}>build_rgst_nm varchar(100) null comment '건축물대장건물명', <{{{><}}}>sgg_build_nm varchar(100) null comment '시군구건물명', <{{{><}}}>multi_unit_yn varchar(1) null comment '공동주택여부' );<{{{><}}}><{{{><}}}>create table jibun_info_m ( mgmt_num varchar(25) not null comment '관리번호', <{{{><}}}>seq varchar(12) not null comment '일련번호', <{{{><}}}>law_dong_cd varchar(10) null comment '법정동코드', <{{{><}}}>sd_nm varchar(50) null comment '시도명', <{{{><}}}>sgg_nm varchar(50) null comment '시군구명', <{{{><}}}>law_umd_nm varchar(50) null comment '법정읍면동명', <{{{><}}}>law_ri_nm varchar(50) null comment '법정리명', <{{{><}}}>san_yn varchar(1) null comment '산여부', <{{{><}}}>jb_main_num int(4) null comment '지번본번(번지)', <{{{><}}}>jb_sub_num int(4) null comment '지번본번(호)', <{{{><}}}>main_yn varchar(1) null comment '대표여부', primary key (mgmt_num, seq) );<{{{><}}}><{{{><}}}>create table juso_info_m ( <{{{><}}}>mgmt_num varchar(25) not null comment '관리번호' primary key, <{{{><}}}>road_nm_cd varchar(12) not null comment '도로명코드', <{{{><}}}>umd_seq varchar(2) not null comment '읍면동일련번호', <{{{><}}}>basement_yn varchar(1) null comment '지하여부', <{{{><}}}>build_main_num int(5) null comment '건물본번', <{{{><}}}>build_sub_num int(5) null comment '건물부번', <{{{><}}}>base_area_num varchar(5) null comment '기초구역번호', <{{{><}}}>update_type_cd varchar(2) null comment '변경사유코드', <{{{><}}}>anncmt_date varchar(8) null comment '고시일자',<{{{><}}}>orgn_road_nm_addr varchar(100) null comment '변경전도로명주소', <{{{><}}}>get_detail_addr_yn varchar(1) null comment '상세주소부여여부' ); <{{{><}}}><{{{><}}}>create table road_cd_info_m ( <{{{><}}}>road_nm_cd varchar(12) not null comment '도로명코드', <{{{><}}}>umd_seq varchar(2) not null comment '읍면동일련번호', <{{{><}}}>road_nm varchar(160) null comment '도로명', <{{{><}}}>road_roma_nm varchar(160) null comment '도로명로마자', <{{{><}}}>sd_nm varchar(50) null comment '시도명', <{{{><}}}>sd_roma_nm varchar(100) null comment '시도로마자', <{{{><}}}>sgg_nm varchar(50) null comment '시군구명', <{{{><}}}>sgg_roma_nm varchar(100) null comment '시군구로마자', <{{{><}}}>umd_nm varchar(50) null comment '읍면동명', <{{{><}}}>umd_roma_nm varchar(100) null comment '읍면동로마자', <{{{><}}}>umd_gb varchar(1) null comment '읍면동구분', <{{{><}}}>umd_cd varchar(3) null comment '읍면동코드', <{{{><}}}>use_yn varchar(1) null comment '사용여부', <{{{><}}}>update_rs_cd varchar(1) null comment '변경사유', <{{{><}}}>update_his_info varchar(14) null comment '변경이력정보', <{{{><}}}>anncmt_date varchar(8) null comment '고시일자', <{{{><}}}>erase_date varchar(8) null comment '말소일자', primary key (road_nm_cd, umd_seq) );<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\22<|||>1<|||>2020-03-09 17:33:38|address_svc_m|16|drop table jibun_info_m;
+Servers\Unnamed\QueryHistory\27<|||>1<|||>2020-03-09 17:33:44|address_svc_m|31|create table jibun_info_m ( mgmt_num varchar(50) not null comment '관리번호', <{{{><}}}>seq varchar(12) not null comment '일련번호', <{{{><}}}>law_dong_cd varchar(10) null comment '법정동코드', <{{{><}}}>sd_nm varchar(50) null comment '시도명', <{{{><}}}>sgg_nm varchar(50) null comment '시군구명', <{{{><}}}>law_umd_nm varchar(50) null comment '법정읍면동명', <{{{><}}}>law_ri_nm varchar(50) null comment '법정리명', <{{{><}}}>san_yn varchar(1) null comment '산여부', <{{{><}}}>jb_main_num int(4) null comment '지번본번(번지)', <{{{><}}}>jb_sub_num int(4) null comment '지번본번(호)', <{{{><}}}>main_yn varchar(1) null comment '대표여부', primary key (mgmt_num, seq) );<{{{><}}}>
+Servers\Unnamed\QueryHistory\28<|||>1<|||>2020-03-09 17:33:58|address_svc_m|969|LOAD DATA LOCAL INFILE 'C:/Users/jhjhy/addressDB/jibun_jeju.txt'<{{{><}}}>REPLACE <{{{><}}}>INTO TABLE jibun_info_m<{{{><}}}>FIELDS TERMINATED BY '|' <{{{><}}}>OPTIONALLY ENCLOSED BY '' <{{{><}}}>LINES TERMINATED BY '\n' <{{{><}}}>(@mgmt_num, <{{{><}}}>@seq, <{{{><}}}>@law_dong_cd, <{{{><}}}>@sd_nm, <{{{><}}}>@sgg_nm, <{{{><}}}>@law_umd_nm, <{{{><}}}>@law_ri_nm,<{{{><}}}>@san_yn, <{{{><}}}>@jb_main_num, <{{{><}}}>@jb_sub_num, <{{{><}}}>@main_yn) <{{{><}}}><{{{><}}}>SET <{{{><}}}>mgmt_num = @mgmt_num, <{{{><}}}>seq = @seq, <{{{><}}}>law_dong_cd = @law_dong_cd, <{{{><}}}>sd_nm = @sd_nm, <{{{><}}}>sgg_nm = @sgg_nm, <{{{><}}}>law_umd_nm = @law_umd_nm, <{{{><}}}>law_ri_nm = @law_ri_nm, <{{{><}}}>san_yn = @san_yn, <{{{><}}}>jb_main_num = @jb_main_num, <{{{><}}}>jb_sub_num = @jb_sub_num, <{{{><}}}>main_yn = @main_yn;
+Servers\Unnamed\QueryHistory\29<|||>1<|||>2020-03-09 17:35:06|address_svc_m|875|LOAD DATA LOCAL INFILE 'C:/Users/jhjhy/addressDB/juso_jeju.txt' <{{{><}}}>REPLACE <{{{><}}}>INTO TABLE juso_info_m <{{{><}}}>FIELDS TERMINATED BY '|' <{{{><}}}>OPTIONALLY ENCLOSED BY '' <{{{><}}}>LINES TERMINATED BY '\n' <{{{><}}}>(@mgmt_num, <{{{><}}}>@road_nm_cd, <{{{><}}}>@umd_seq, <{{{><}}}>@basement_yn, <{{{><}}}>@build_main_num, <{{{><}}}>@build_sub_num, <{{{><}}}>@base_area_num, <{{{><}}}>@update_type_cd, <{{{><}}}>@anncmt_date, <{{{><}}}>@orgn_road_nm_addr, <{{{><}}}>@get_detail_addr_yn) <{{{><}}}><{{{><}}}>SET <{{{><}}}>mgmt_num=@mgmt_num, <{{{><}}}>road_nm_cd=@road_nm_cd, <{{{><}}}>umd_seq=@umd_seq, <{{{><}}}>basement_yn=@basement_yn, <{{{><}}}>build_main_num=@build_main_num, <{{{><}}}>build_sub_num=@build_sub_num, <{{{><}}}>base_area_num=@base_area_num, <{{{><}}}>update_type_cd=@update_type_cd, <{{{><}}}>anncmt_date=@anncmt_date, <{{{><}}}>orgn_road_nm_addr=@orgn_road_nm_addr, <{{{><}}}>get_detail_addr_yn=@get_detail_addr_yn;<{{{><}}}>
+Servers\Unnamed\QueryHistory\30<|||>1<|||>2020-03-09 17:35:56|address_svc_m|2328|LOAD DATA LOCAL INFILE 'C:/Users/jhjhy/addressDB/road_cd.txt'<{{{><}}}>REPLACE<{{{><}}}>INTO TABLE address_svc_m.road_cd_info_m<{{{><}}}>FIELDS TERMINATED BY '|'<{{{><}}}>OPTIONALLY ENCLOSED BY ''<{{{><}}}>LINES TERMINATED BY '\n'<{{{><}}}>(@road_nm_cd,<{{{><}}}>@road_nm,<{{{><}}}>@road_roma_nm,<{{{><}}}>@umd_seq,<{{{><}}}>@sd_nm,<{{{><}}}>@sd_roma_nm,<{{{><}}}>@sgg_nm,<{{{><}}}>@sgg_roma_nm,<{{{><}}}>@umd_nm,<{{{><}}}>@umd_roma_nm,<{{{><}}}>@umd_gb,<{{{><}}}>@umd_cd,<{{{><}}}>@use_yn,<{{{><}}}>@update_rs_cd,<{{{><}}}>@update_his_info,<{{{><}}}>@anncmt_date,<{{{><}}}>@erase_date)<{{{><}}}>SET<{{{><}}}>road_nm_cd = @road_nm_cd,<{{{><}}}>umd_seq = @umd_seq,<{{{><}}}>road_nm = @road_nm,<{{{><}}}>road_roma_nm = @road_roma_nm,<{{{><}}}>sd_nm = @sd_nm,<{{{><}}}>sd_roma_nm = @sd_roma_nm,<{{{><}}}>sgg_nm = @sgg_nm,<{{{><}}}>sgg_roma_nm = @sgg_roma_nm,<{{{><}}}>umd_nm = @umd_nm,<{{{><}}}>umd_roma_nm = @umd_roma_nm,<{{{><}}}>umd_gb = @umd_gb,<{{{><}}}>umd_cd = @umd_cd,<{{{><}}}>use_yn = @use_yn,<{{{><}}}>update_rs_cd = @update_rs_cd,<{{{><}}}>update_his_info = @update_his_info,<{{{><}}}>anncmt_date = @anncmt_date,<{{{><}}}>erase_date = @erase_date<{{{><}}}>;
+Servers\Unnamed\QueryHistory\31<|||>1<|||>2020-03-09 17:38:57|address_svc_m|1516|alter table address_svc_m.juso_info_m <{{{><}}}>add inf_flag varchar(1) null comment 'inf_플래그';<{{{><}}}><{{{><}}}>UPDATE address_svc_m.juso_info_m SET inf_flag = 'N';
+Servers\Unnamed\QueryHistory\32<|||>1<|||>2020-03-09 17:39:05|address_svc_m|31|<{{{><}}}>#inf_latitude(위도), inf_longtitude(경도) 만들기<{{{><}}}>alter table address_svc_m.juso_info_m <{{{><}}}>add inf_latitude VARCHAR(30) null comment 'inf_위도';<{{{><}}}><{{{><}}}>alter table address_svc_m.juso_info_m <{{{><}}}>add inf_longtitude VARCHAR(30) null comment 'inf_경도';
+Servers\Unnamed\QueryHistory\34<|||>1<|||>2020-03-09 18:09:55|address_svc_m|0|SELECT mgmt_num, inf_full_road_addr FROM address_svc_m.juso_info_m WHERE inf_flag = 'N' LIMIT 1;
+Servers\Unnamed\QueryHistory\33<|||>1<|||>2020-03-09 21:54:15|public_data|108|#부가정보 테이블 <{{{><}}}>create table add_info_m ( mgmt_num varchar(25) not null comment '관리번호' primary KEY, <{{{><}}}>adm_dong_cd varchar(10) null COMMENT '행정동코드', <{{{><}}}>adm_dong_nm varchar(50) null comment '행정동명', zipcode varchar(5) null COMMENT '우편번호', <{{{><}}}>zipcode_seq varchar(3) null COMMENT '우편번호일련번호', <{{{><}}}>plent_dlvr_nm varchar(100) null COMMENT '다량배달처명', <{{{><}}}>build_rgst_nm varchar(100) null COMMENT '건축물대장건물명', <{{{><}}}>sgg_build_nm varchar(100) null COMMENT '시군구건물명', <{{{><}}}>multi_unit_yn varchar(1) null COMMENT '공동주택여부' ); <{{{><}}}>#지번 테이블 <{{{><}}}>create table jibun_info_m ( mgmt_num varchar(25) not null COMMENT '관리번호',<{{{><}}}> seq varchar(12) not null comment '일련번호', <{{{><}}}> law_dong_cd varchar(10) null comment '법정동코드', <{{{><}}}> sd_nm varchar(50) null comment '시도명', <{{{><}}}> sgg_nm varchar(50) null comment '시군구명',<{{{><}}}> law_umd_nm varchar(50) null comment '법정읍면동명', <{{{><}}}> law_ri_nm varchar(50) null comment '법정리명', <{{{><}}}> san_yn varchar(1) null comment '산여부', <{{{><}}}> jb_main_num int(4) null comment '지번본번(번지)', <{{{><}}}> jb_sub_num int(4) null comment '지번본번(호)', <{{{><}}}> main_yn varchar(1) null comment '대표여부', primary key (mgmt_num, seq) ); <{{{><}}}> #주소 테이블(도로명 주소) <{{{><}}}> create table juso_info_m ( mgmt_num varchar(25) not null comment '관리번호' primary key,<{{{><}}}> road_nm_cd varchar(12) not null comment '도로명코드', <{{{><}}}> umd_seq varchar(2) not null comment '읍면동일련번호', <{{{><}}}> basement_yn varchar(1) null comment '지하여부', <{{{><}}}> build_main_num int(5) null comment '건물본번', <{{{><}}}> build_sub_num int(5) null comment '건물부번', <{{{><}}}> base_area_num varchar(5) null comment '기초구역번호', <{{{><}}}> update_type_cd varchar(2) null comment '변경사유코드', <{{{><}}}> anncmt_date varchar(8) null comment '고시일자',<{{{><}}}> orgn_road_nm_addr varchar(100) null comment '변경전도로명주소', <{{{><}}}> get_detail_addr_yn varchar(1) null comment '상세주소부여여부' ); <{{{><}}}> #도로명코드 테이블 <{{{><}}}> create table road_cd_info_m ( road_nm_cd varchar(12) not null comment '도로명코드', <{{{><}}}> umd_seq varchar(2) not null comment '읍면동일련번호', <{{{><}}}> road_nm varchar(160) null comment '도로명', <{{{><}}}> road_roma_nm varchar(160) null comment '도로명로마자', <{{{><}}}> sd_nm varchar(50) null comment '시도명', <{{{><}}}> sd_roma_nm varchar(100) null comment '시도로마자', <{{{><}}}> sgg_nm varchar(50) null comment '시군구명', <{{{><}}}> sgg_roma_nm varchar(100) null comment '시군구로마자', <{{{><}}}> umd_nm varchar(50) null comment '읍면동명', <{{{><}}}> umd_roma_nm varchar(100) null comment '읍면동로마자', <{{{><}}}> umd_gb varchar(1) null comment '읍면동구분', <{{{><}}}> umd_cd varchar(3) null comment '읍면동코드', <{{{><}}}> use_yn varchar(1) null comment '사용여부', <{{{><}}}> update_rs_cd varchar(1) null comment '변경사유', <{{{><}}}> update_his_info varchar(14) null comment '변경이력정보', <{{{><}}}> anncmt_date varchar(8) null comment '고시일자', <{{{><}}}> erase_date varchar(8) null comment '말소일자', primary key (road_nm_cd, umd_seq) );<{{{><}}}><{{{><}}}>
+Servers\Unnamed\QueryHistory\35<|||>1<|||>2020-03-09 22:08:55|public_data|750|LOAD DATA LOCAL INFILE 'C:/Users/jhjhy/addressDB/add_jeju.txt' <{{{><}}}>REPLACE <{{{><}}}>INTO TABLE add_info_m <{{{><}}}>FIELDS TERMINATED BY '|' <{{{><}}}>OPTIONALLY ENCLOSED BY '' <{{{><}}}>LINES TERMINATED BY '\n' <{{{><}}}>(<{{{><}}}>@mgmt_num, <{{{><}}}>@adm_dong_cd,<{{{><}}}>@adm_dong_nm, <{{{><}}}>@zipcode, <{{{><}}}>@zipcode_seq, <{{{><}}}>@plent_dlvr_nm, <{{{><}}}>@build_rgst_nm, <{{{><}}}>@sgg_build_nm, <{{{><}}}>@multi_unit_yn<{{{><}}}>) <{{{><}}}><{{{><}}}>SET <{{{><}}}>mgmt_num=@mgmt_num, <{{{><}}}>adm_dong_cd=@adm_dong_cd,<{{{><}}}>adm_dong_nm=@adm_dong_nm, <{{{><}}}>zipcode=@zipcode, <{{{><}}}>zipcode_seq=@zipcode_seq, <{{{><}}}>plent_dlvr_nm=@plent_dlvr_nm, <{{{><}}}>build_rgst_nm=@build_rgst_nm, <{{{><}}}>sgg_build_nm=@sgg_build_nm, <{{{><}}}>multi_unit_yn=@multi_unit_yn
+Servers\Unnamed\QueryHistory\26<|||>1<|||>2020-03-09 22:14:23|public_data|875|LOAD DATA LOCAL INFILE 'C:/Users/jhjhy/addressDB/juso_jeju.txt' <{{{><}}}>REPLACE <{{{><}}}>INTO TABLE juso_info_m <{{{><}}}>FIELDS TERMINATED BY '|' <{{{><}}}>OPTIONALLY ENCLOSED BY '' <{{{><}}}>LINES TERMINATED BY '\n' <{{{><}}}>(@mgmt_num, <{{{><}}}>@road_nm_cd, <{{{><}}}>@umd_seq, <{{{><}}}>@basement_yn, <{{{><}}}>@build_main_num, <{{{><}}}>@build_sub_num, <{{{><}}}>@base_area_num, <{{{><}}}>@update_type_cd, <{{{><}}}>@anncmt_date, <{{{><}}}>@orgn_road_nm_addr, <{{{><}}}>@get_detail_addr_yn) <{{{><}}}><{{{><}}}>SET <{{{><}}}>mgmt_num=@mgmt_num, <{{{><}}}>road_nm_cd=@road_nm_cd, <{{{><}}}>umd_seq=@umd_seq, <{{{><}}}>basement_yn=@basement_yn, <{{{><}}}>build_main_num=@build_main_num, <{{{><}}}>build_sub_num=@build_sub_num, <{{{><}}}>base_area_num=@base_area_num, <{{{><}}}>update_type_cd=@update_type_cd, <{{{><}}}>anncmt_date=@anncmt_date, <{{{><}}}>orgn_road_nm_addr=@orgn_road_nm_addr, <{{{><}}}>get_detail_addr_yn=@get_detail_addr_yn
+Servers\Unnamed\QueryHistory\36<|||>1<|||>2020-03-09 22:14:23|public_data|0|SHOW WARNINGS
+Servers\Unnamed\QueryHistory\25<|||>1<|||>2020-03-09 22:15:26|public_data|2344|LOAD DATA LOCAL INFILE 'C:/Users/jhjhy/addressDB/road_cd.txt'<{{{><}}}>REPLACE<{{{><}}}>INTO TABLE road_cd_info_m<{{{><}}}>FIELDS TERMINATED BY '|'<{{{><}}}>OPTIONALLY ENCLOSED BY ''<{{{><}}}>LINES TERMINATED BY '\n'<{{{><}}}>(@road_nm_cd,<{{{><}}}>@road_nm,<{{{><}}}>@road_roma_nm,<{{{><}}}>@umd_seq,<{{{><}}}>@sd_nm,<{{{><}}}>@sd_roma_nm,<{{{><}}}>@sgg_nm,<{{{><}}}>@sgg_roma_nm,<{{{><}}}>@umd_nm,<{{{><}}}>@umd_roma_nm,<{{{><}}}>@umd_gb,<{{{><}}}>@umd_cd,<{{{><}}}>@use_yn,<{{{><}}}>@update_rs_cd,<{{{><}}}>@update_his_info,<{{{><}}}>@anncmt_date,<{{{><}}}>@erase_date)<{{{><}}}>SET<{{{><}}}>road_nm_cd = @road_nm_cd,<{{{><}}}>umd_seq = @umd_seq,<{{{><}}}>road_nm = @road_nm,<{{{><}}}>road_roma_nm = @road_roma_nm,<{{{><}}}>sd_nm = @sd_nm,<{{{><}}}>sd_roma_nm = @sd_roma_nm,<{{{><}}}>sgg_nm = @sgg_nm,<{{{><}}}>sgg_roma_nm = @sgg_roma_nm,<{{{><}}}>umd_nm = @umd_nm,<{{{><}}}>umd_roma_nm = @umd_roma_nm,<{{{><}}}>umd_gb = @umd_gb,<{{{><}}}>umd_cd = @umd_cd,<{{{><}}}>use_yn = @use_yn,<{{{><}}}>update_rs_cd = @update_rs_cd,<{{{><}}}>update_his_info = @update_his_info,<{{{><}}}>anncmt_date = @anncmt_date,<{{{><}}}>erase_date = @erase_date<{{{><}}}>
+Servers\Unnamed\QueryHistory\37<|||>1<|||>2020-03-09 22:54:49|public_data|16|#juso_info_m 지번주소값을 저장 할 컬럼<{{{><}}}>alter table public_data.juso_info_m <{{{><}}}>add inf_full_jb_addr varchar(300) null comment 'inf_지번주소'
