@@ -1,0 +1,2219 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20201.20.0326.1623                               -->
+<workbook original-version='18.1' source-build='2020.1.2 (20201.20.0326.1623)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='한국공항공사_국적항공사 항공기 보유현황_20190516' inline='true' name='federated.1jk860k1j8uwui1ez5nxe1101k9f' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='한국공항공사_국적항공사 항공기 보유현황_20190516' name='textscan.1rbo9xc0qgn8yw1bns6oz0sv1nle'>
+            <connection class='textscan' directory='D:/python/Python/kakao_project/카카오자료' filename='한국공항공사_국적항공사 항공기 보유현황_20190516.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1rbo9xc0qgn8yw1bns6oz0sv1nle' name='한국공항공사_국적항공사 항공기 보유현황_20190516.csv' table='[한국공항공사_국적항공사 항공기 보유현황_20190516#csv]' type='table'>
+          <columns character-set='EUC-KR' header='no' locale='ko_KR' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='string' name='F2' ordinal='1' />
+            <column datatype='integer' name='F3' ordinal='2' />
+            <column datatype='integer' name='F4' ordinal='3' />
+            <column datatype='integer' name='F5' ordinal='4' />
+            <column datatype='integer' name='F6' ordinal='5' />
+            <column datatype='integer' name='F7' ordinal='6' />
+            <column datatype='integer' name='F8' ordinal='7' />
+            <column datatype='integer' name='F9' ordinal='8' />
+            <column datatype='integer' name='F10' ordinal='9' />
+            <column datatype='integer' name='F11' ordinal='10' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;ibm-970_P110_P110-2006_U2&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ko&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₩&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ko_KR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F11]</local-name>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='여객기' datatype='string' name='[F1]' role='dimension' type='nominal' />
+      <column caption='화물기' datatype='string' name='[F2]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.381153' measure-ordering='alphabetic' measure-percentage='0.618847' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='항공기 등록정보(2019년+10월+기준)' inline='true' name='federated.1m3tkpu0b2xnww1aklrxr17kleup' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='항공기 등록정보(2019년+10월+기준)' name='textscan.1f3tkhr0q523231ena8n60q7g51b'>
+            <connection class='textscan' directory='D:/python/Python/kakao_project/카카오자료' filename='항공기 등록정보(2019년+10월+기준).csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1f3tkhr0q523231ena8n60q7g51b' name='항공기 등록정보(2019년+10월+기준).csv' table='[항공기 등록정보(2019년+10월+기준)#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+            <column datatype='integer' name='순번' ordinal='0' />
+            <column datatype='string' name='사업구분' ordinal='1' />
+            <column datatype='string' name='항공사' ordinal='2' />
+            <column datatype='string' name='등록기호' ordinal='3' />
+            <column datatype='string' name='형식' ordinal='4' />
+            <column datatype='string' name='제작번호' ordinal='5' />
+            <column datatype='date' name='제작일자' ordinal='6' />
+            <column datatype='integer' name='기령(년)' ordinal='7' />
+            <column datatype='date' name='등록일자' ordinal='8' />
+            <column datatype='real' name='좌석' ordinal='9' />
+            <column datatype='string' name='최대이륙중량' ordinal='10' />
+            <column datatype='string' name='정치장' ordinal='11' />
+            <column datatype='string' name='도입형태' ordinal='12' />
+            <column datatype='string' name='비고' ordinal='13' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[항공기 등록정보(2019년+10월+기준).csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ko&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₩&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ko_KR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>순번</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[순번]</local-name>
+            <parent-name>[항공기 등록정보(2019년+10월+기준).csv]</parent-name>
+            <remote-alias>순번</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>사업구분</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[사업구분]</local-name>
+            <parent-name>[항공기 등록정보(2019년+10월+기준).csv]</parent-name>
+            <remote-alias>사업구분</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>항공사</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[항공사]</local-name>
+            <parent-name>[항공기 등록정보(2019년+10월+기준).csv]</parent-name>
+            <remote-alias>항공사</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>등록기호</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[등록기호]</local-name>
+            <parent-name>[항공기 등록정보(2019년+10월+기준).csv]</parent-name>
+            <remote-alias>등록기호</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>형식</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[형식]</local-name>
+            <parent-name>[항공기 등록정보(2019년+10월+기준).csv]</parent-name>
+            <remote-alias>형식</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>제작번호</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[제작번호]</local-name>
+            <parent-name>[항공기 등록정보(2019년+10월+기준).csv]</parent-name>
+            <remote-alias>제작번호</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>제작일자</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[제작일자]</local-name>
+            <parent-name>[항공기 등록정보(2019년+10월+기준).csv]</parent-name>
+            <remote-alias>제작일자</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>기령(년)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[기령(년)]</local-name>
+            <parent-name>[항공기 등록정보(2019년+10월+기준).csv]</parent-name>
+            <remote-alias>기령(년)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>등록일자</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[등록일자]</local-name>
+            <parent-name>[항공기 등록정보(2019년+10월+기준).csv]</parent-name>
+            <remote-alias>등록일자</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>좌석</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[좌석]</local-name>
+            <parent-name>[항공기 등록정보(2019년+10월+기준).csv]</parent-name>
+            <remote-alias>좌석</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>최대이륙중량</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[최대이륙중량]</local-name>
+            <parent-name>[항공기 등록정보(2019년+10월+기준).csv]</parent-name>
+            <remote-alias>최대이륙중량</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>정치장</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[정치장]</local-name>
+            <parent-name>[항공기 등록정보(2019년+10월+기준).csv]</parent-name>
+            <remote-alias>정치장</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>도입형태</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[도입형태]</local-name>
+            <parent-name>[항공기 등록정보(2019년+10월+기준).csv]</parent-name>
+            <remote-alias>도입형태</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>비고</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[비고]</local-name>
+            <parent-name>[항공기 등록정보(2019년+10월+기준).csv]</parent-name>
+            <remote-alias>비고</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.607246' measure-ordering='alphabetic' measure-percentage='0.392754' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='한국공항공사_국적항공사 항공기 보유현황_20190516 (2)' inline='true' name='federated.1vrhys71wokkv219qt0vs1vqirwl' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='한국공항공사_국적항공사 항공기 보유현황_20190516' name='textscan.1bpz5i51b72gje11oqlft0nrvwe2'>
+            <connection class='textscan' directory='D:/python/Python/kakao_project/카카오자료' filename='한국공항공사_국적항공사 항공기 보유현황_20190516.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1bpz5i51b72gje11oqlft0nrvwe2' name='한국공항공사_국적항공사 항공기 보유현황_20190516.csv' table='[한국공항공사_국적항공사 항공기 보유현황_20190516#csv]' type='table'>
+          <columns character-set='EUC-KR' header='no' locale='ko_KR' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='string' name='F2' ordinal='1' />
+            <column datatype='integer' name='F3' ordinal='2' />
+            <column datatype='integer' name='F4' ordinal='3' />
+            <column datatype='integer' name='F5' ordinal='4' />
+            <column datatype='integer' name='F6' ordinal='5' />
+            <column datatype='integer' name='F7' ordinal='6' />
+            <column datatype='integer' name='F8' ordinal='7' />
+            <column datatype='integer' name='F9' ordinal='8' />
+            <column datatype='integer' name='F10' ordinal='9' />
+            <column datatype='integer' name='F11' ordinal='10' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;EUC-KR&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ko&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₩&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;false&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ko_KR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F11]</local-name>
+            <parent-name>[한국공항공사_국적항공사 항공기 보유현황_20190516.csv]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.38256' measure-ordering='alphabetic' measure-percentage='0.61744' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='한국공항공사_공항별 항공기 지연현황(&apos;16)' inline='true' name='federated.0c8wcsh0zfae2v19xwgfb0wgunvn' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='한국공항공사_공항별 항공기 지연현황(&apos;16)' name='textscan.1lvizqe16m7qu31cowqe60gmzm6t'>
+            <connection class='textscan' directory='D:/python/Python/kakao_project/카카오자료' filename='한국공항공사_공항별 항공기 지연현황(&apos;16).csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1lvizqe16m7qu31cowqe60gmzm6t' name='한국공항공사_공항별 항공기 지연현황(&apos;16).csv' table='[한국공항공사_공항별 항공기 지연현황(&apos;16)#csv]' type='table'>
+          <columns character-set='EUC-KR' header='yes' locale='ko_KR' separator=','>
+            <column datatype='integer' name='연도' ordinal='0' />
+            <column datatype='string' name='공항' ordinal='1' />
+            <column datatype='string' name='노선' ordinal='2' />
+            <column datatype='integer' name='운항' ordinal='3' />
+            <column datatype='integer' name='기상' ordinal='4' />
+            <column datatype='integer' name='A/C접속' ordinal='5' />
+            <column datatype='integer' name='A/C정비' ordinal='6' />
+            <column datatype='integer' name='승객접속' ordinal='7' />
+            <column datatype='integer' name='항로관련' ordinal='8' />
+            <column datatype='integer' name='기타' ordinal='9' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[한국공항공사_공항별 항공기 지연현황(&apos;16).csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;EUC-KR&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ko&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₩&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ko_KR&quot;</attribute>
+              <attribute datatype='string' name='record-delimiter'>&quot;\\r&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>연도</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[연도]</local-name>
+            <parent-name>[한국공항공사_공항별 항공기 지연현황(&apos;16).csv]</parent-name>
+            <remote-alias>연도</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>공항</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[공항]</local-name>
+            <parent-name>[한국공항공사_공항별 항공기 지연현황(&apos;16).csv]</parent-name>
+            <remote-alias>공항</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>노선</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[노선]</local-name>
+            <parent-name>[한국공항공사_공항별 항공기 지연현황(&apos;16).csv]</parent-name>
+            <remote-alias>노선</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>운항</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[운항]</local-name>
+            <parent-name>[한국공항공사_공항별 항공기 지연현황(&apos;16).csv]</parent-name>
+            <remote-alias>운항</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>기상</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[기상]</local-name>
+            <parent-name>[한국공항공사_공항별 항공기 지연현황(&apos;16).csv]</parent-name>
+            <remote-alias>기상</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A/C접속</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A/C접속]</local-name>
+            <parent-name>[한국공항공사_공항별 항공기 지연현황(&apos;16).csv]</parent-name>
+            <remote-alias>A/C접속</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A/C정비</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A/C정비]</local-name>
+            <parent-name>[한국공항공사_공항별 항공기 지연현황(&apos;16).csv]</parent-name>
+            <remote-alias>A/C정비</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>승객접속</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[승객접속]</local-name>
+            <parent-name>[한국공항공사_공항별 항공기 지연현황(&apos;16).csv]</parent-name>
+            <remote-alias>승객접속</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>항로관련</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[항로관련]</local-name>
+            <parent-name>[한국공항공사_공항별 항공기 지연현황(&apos;16).csv]</parent-name>
+            <remote-alias>항로관련</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>기타</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[기타]</local-name>
+            <parent-name>[한국공항공사_공항별 항공기 지연현황(&apos;16).csv]</parent-name>
+            <remote-alias>기타</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.396624' measure-ordering='alphabetic' measure-percentage='0.603376' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='저층바람시어경보_인천공항(수시)' inline='true' name='federated.09umhrs0skm5fx14tuozq0p4jy8n' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='저층바람시어경보_인천공항(수시)' name='textscan.1rc8v9a0cs2qw1127bfzi0jrdv55'>
+            <connection class='textscan' directory='D:/python/Python/kakao_project/카카오자료' filename='저층바람시어경보_인천공항(수시).csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1rc8v9a0cs2qw1127bfzi0jrdv55' name='저층바람시어경보_인천공항(수시).csv' table='[저층바람시어경보_인천공항(수시)#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+            <column datatype='datetime' name='TM' ordinal='0' />
+            <column datatype='integer' name='STN_ID' ordinal='1' />
+            <column datatype='string' name='RWY_DIR' ordinal='2' />
+            <column datatype='string' name='RWY_AD' ordinal='3' />
+            <column datatype='string' name='ALERT' ordinal='4' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[저층바람시어경보_인천공항(수시).csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ko&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₩&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ko_KR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TM</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[TM]</local-name>
+            <parent-name>[저층바람시어경보_인천공항(수시).csv]</parent-name>
+            <remote-alias>TM</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STN_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[STN_ID]</local-name>
+            <parent-name>[저층바람시어경보_인천공항(수시).csv]</parent-name>
+            <remote-alias>STN_ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RWY_DIR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[RWY_DIR]</local-name>
+            <parent-name>[저층바람시어경보_인천공항(수시).csv]</parent-name>
+            <remote-alias>RWY_DIR</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RWY_AD</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[RWY_AD]</local-name>
+            <parent-name>[저층바람시어경보_인천공항(수시).csv]</parent-name>
+            <remote-alias>RWY_AD</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ALERT</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ALERT]</local-name>
+            <parent-name>[저층바람시어경보_인천공항(수시).csv]</parent-name>
+            <remote-alias>ALERT</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Alert' datatype='string' name='[ALERT]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Rwy Ad' datatype='string' name='[RWY_AD]' role='dimension' type='nominal' />
+      <column caption='Rwy Dir' datatype='string' name='[RWY_DIR]' role='dimension' type='nominal' />
+      <column caption='Stn Id' datatype='integer' name='[STN_ID]' role='dimension' type='ordinal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.562319' measure-ordering='alphabetic' measure-percentage='0.437681' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='sheet (NewsResult_20200101-20200401)' inline='true' name='federated.1udyenz1veg9if160nt3h0hbhmgw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='NewsResult_20200101-20200401' name='excel-direct.04fgm0u0wu6xkz142jlht1bk69xg'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/python/Python/kakao_project/카카오자료/NewsResult_20200101-20200401.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.04fgm0u0wu6xkz142jlht1bk69xg' name='sheet' table='[sheet$]' type='table'>
+          <columns gridOrigin='A1:S655:no:A1:S655:0' header='yes' outcome='2'>
+            <column datatype='string' name='뉴스 식별자' ordinal='0' />
+            <column datatype='string' name='일자' ordinal='1' />
+            <column datatype='string' name='언론사' ordinal='2' />
+            <column datatype='string' name='기고자' ordinal='3' />
+            <column datatype='string' name='제목' ordinal='4' />
+            <column datatype='string' name='통합 분류1' ordinal='5' />
+            <column datatype='string' name='통합 분류2' ordinal='6' />
+            <column datatype='string' name='통합 분류3' ordinal='7' />
+            <column datatype='string' name='사건/사고 분류1' ordinal='8' />
+            <column datatype='string' name='사건/사고 분류2' ordinal='9' />
+            <column datatype='string' name='사건/사고 분류3' ordinal='10' />
+            <column datatype='string' name='인물' ordinal='11' />
+            <column datatype='string' name='위치' ordinal='12' />
+            <column datatype='string' name='기관' ordinal='13' />
+            <column datatype='string' name='키워드' ordinal='14' />
+            <column datatype='string' name='특성추출' ordinal='15' />
+            <column datatype='string' name='본문' ordinal='16' />
+            <column datatype='string' name='URL' ordinal='17' />
+            <column datatype='string' name='분석제외 여부' ordinal='18' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>뉴스 식별자</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[뉴스 식별자]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>뉴스 식별자</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>일자</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[일자]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>일자</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>언론사</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[언론사]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>언론사</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>기고자</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[기고자]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>기고자</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>제목</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[제목]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>제목</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>통합 분류1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[통합 분류1]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>통합 분류1</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>통합 분류2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[통합 분류2]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>통합 분류2</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>통합 분류3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[통합 분류3]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>통합 분류3</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>사건/사고 분류1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[사건/사고 분류1]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>사건/사고 분류1</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>사건/사고 분류2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[사건/사고 분류2]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>사건/사고 분류2</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>사건/사고 분류3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[사건/사고 분류3]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>사건/사고 분류3</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>인물</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[인물]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>인물</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>위치</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[위치]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>위치</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>기관</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[기관]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>기관</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>키워드</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[키워드]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>키워드</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>특성추출</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[특성추출]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>특성추출</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>본문</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[본문]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>본문</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>URL</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[URL]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>URL</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>분석제외 여부</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[분석제외 여부]</local-name>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias>분석제외 여부</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[sheet]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:S655:no:A1:S655:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.773913' measure-ordering='alphabetic' measure-percentage='0.226087' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='시트 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>저층 바람 시어 경보&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='저층바람시어경보_인천공항(수시)' name='federated.09umhrs0skm5fx14tuozq0p4jy8n' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09umhrs0skm5fx14tuozq0p4jy8n'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column caption='Rwy Ad' datatype='string' name='[RWY_AD]' role='dimension' type='nominal' />
+            <column caption='Rwy Dir' datatype='string' name='[RWY_DIR]' role='dimension' type='nominal' />
+            <column caption='Stn Id' datatype='integer' name='[STN_ID]' role='dimension' type='ordinal' />
+            <column datatype='datetime' name='[TM]' role='dimension' type='ordinal' />
+            <column-instance column='[RWY_AD]' derivation='None' name='[none:RWY_AD:nk]' pivot='key' type='nominal' />
+            <column-instance column='[RWY_DIR]' derivation='None' name='[none:RWY_DIR:nk]' pivot='key' type='nominal' />
+            <column-instance column='[STN_ID]' derivation='None' name='[none:STN_ID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TM]' derivation='Year-Trunc' name='[tyr:TM:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09umhrs0skm5fx14tuozq0p4jy8n].[none:RWY_AD:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:RWY_AD:nk]' />
+              <groupfilter function='member' level='[none:RWY_AD:nk]' member='&quot;D&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.09umhrs0skm5fx14tuozq0p4jy8n].[none:RWY_AD:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.09umhrs0skm5fx14tuozq0p4jy8n].[sum:Number of Records:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.09umhrs0skm5fx14tuozq0p4jy8n].[none:STN_ID:ok]' />
+              <size column='[federated.09umhrs0skm5fx14tuozq0p4jy8n].[sum:Number of Records:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.09umhrs0skm5fx14tuozq0p4jy8n].[none:RWY_AD:nk] / [federated.09umhrs0skm5fx14tuozq0p4jy8n].[none:RWY_DIR:nk])</rows>
+        <cols>[federated.09umhrs0skm5fx14tuozq0p4jy8n].[tyr:TM:qk]</cols>
+      </table>
+      <simple-id uuid='{04F19E50-929F-44CE-B965-61212708E5DC}' />
+    </worksheet>
+    <worksheet name='시트 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='한국공항공사_공항별 항공기 지연현황(&apos;16)' name='federated.0c8wcsh0zfae2v19xwgfb0wgunvn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0c8wcsh0zfae2v19xwgfb0wgunvn'>
+            <column datatype='integer' name='[A/C접속]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[A/C정비]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[공항]' derivation='None' name='[none:공항:nk]' pivot='key' type='nominal' />
+            <column-instance column='[A/C접속]' derivation='Sum' name='[sum:A/C접속:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[A/C정비]' derivation='Sum' name='[sum:A/C정비:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[기상]' derivation='Sum' name='[sum:기상:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[기타]' derivation='Sum' name='[sum:기타:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[승객접속]' derivation='Sum' name='[sum:승객접속:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[연도]' derivation='Sum' name='[sum:연도:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[운항]' derivation='Sum' name='[sum:운항:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[항로관련]' derivation='Sum' name='[sum:항로관련:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[공항]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[기상]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[기타]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[승객접속]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[연도]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[운항]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[항로관련]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0c8wcsh0zfae2v19xwgfb0wgunvn].[sum:A/C접속:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0c8wcsh0zfae2v19xwgfb0wgunvn].[sum:A/C정비:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0c8wcsh0zfae2v19xwgfb0wgunvn].[sum:Number of Records:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0c8wcsh0zfae2v19xwgfb0wgunvn].[sum:기상:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0c8wcsh0zfae2v19xwgfb0wgunvn].[sum:기타:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0c8wcsh0zfae2v19xwgfb0wgunvn].[sum:승객접속:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0c8wcsh0zfae2v19xwgfb0wgunvn].[sum:연도:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0c8wcsh0zfae2v19xwgfb0wgunvn].[sum:운항:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0c8wcsh0zfae2v19xwgfb0wgunvn].[sum:항로관련:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0c8wcsh0zfae2v19xwgfb0wgunvn].[none:공항:nk]</rows>
+        <cols>([federated.0c8wcsh0zfae2v19xwgfb0wgunvn].[sum:A/C접속:qk] + ([federated.0c8wcsh0zfae2v19xwgfb0wgunvn].[sum:A/C정비:qk] + ([federated.0c8wcsh0zfae2v19xwgfb0wgunvn].[sum:Number of Records:qk] + ([federated.0c8wcsh0zfae2v19xwgfb0wgunvn].[sum:기상:qk] + ([federated.0c8wcsh0zfae2v19xwgfb0wgunvn].[sum:기타:qk] + ([federated.0c8wcsh0zfae2v19xwgfb0wgunvn].[sum:승객접속:qk] + ([federated.0c8wcsh0zfae2v19xwgfb0wgunvn].[sum:연도:qk] + ([federated.0c8wcsh0zfae2v19xwgfb0wgunvn].[sum:운항:qk] + [federated.0c8wcsh0zfae2v19xwgfb0wgunvn].[sum:항로관련:qk]))))))))</cols>
+      </table>
+      <simple-id uuid='{242AECD9-2A3C-4606-870F-9EDCB8930D24}' />
+    </worksheet>
+    <worksheet name='시트 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='한국공항공사_국적항공사 항공기 보유현황_20190516 (2)' name='federated.1vrhys71wokkv219qt0vs1vqirwl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vrhys71wokkv219qt0vs1vqirwl'>
+            <column datatype='integer' name='[F10]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[F11]' role='measure' type='quantitative' />
+            <column datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[F2]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[F3]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[F4]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[F5]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[F6]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[F7]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[F8]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[F9]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F2]' derivation='None' name='[none:F2:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F10]' derivation='Sum' name='[sum:F10:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F11]' derivation='Sum' name='[sum:F11:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F3]' derivation='Sum' name='[sum:F3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F4]' derivation='Sum' name='[sum:F4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F5]' derivation='Sum' name='[sum:F5:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F6]' derivation='Sum' name='[sum:F6:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F7]' derivation='Sum' name='[sum:F7:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F8]' derivation='Sum' name='[sum:F8:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F9]' derivation='Sum' name='[sum:F9:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1vrhys71wokkv219qt0vs1vqirwl].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <slices>
+            <column>[federated.1vrhys71wokkv219qt0vs1vqirwl].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1vrhys71wokkv219qt0vs1vqirwl].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1vrhys71wokkv219qt0vs1vqirwl].[Multiple Values]</rows>
+        <cols>([federated.1vrhys71wokkv219qt0vs1vqirwl].[none:F1:nk] / ([federated.1vrhys71wokkv219qt0vs1vqirwl].[none:F2:nk] / [federated.1vrhys71wokkv219qt0vs1vqirwl].[:Measure Names]))</cols>
+      </table>
+      <simple-id uuid='{EE4EA887-F3EF-4F37-A4AC-D5AC5571063C}' />
+    </worksheet>
+    <worksheet name='시트 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='항공기 등록정보(2019년+10월+기준)' name='federated.1m3tkpu0b2xnww1aklrxr17kleup' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1m3tkpu0b2xnww1aklrxr17kleup'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[기령(년)]' derivation='Sum' name='[sum:기령(년):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[순번]' derivation='Sum' name='[sum:순번:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[좌석]' derivation='Sum' name='[sum:좌석:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[등록일자]' derivation='Year' name='[yr:등록일자:ok]' pivot='key' type='ordinal' />
+            <column datatype='integer' name='[기령(년)]' role='measure' type='quantitative' />
+            <column datatype='date' name='[등록일자]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[순번]' role='measure' type='quantitative' />
+            <column datatype='real' name='[좌석]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1m3tkpu0b2xnww1aklrxr17kleup].[sum:Number of Records:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1m3tkpu0b2xnww1aklrxr17kleup].[sum:기령(년):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#72b966' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1m3tkpu0b2xnww1aklrxr17kleup].[sum:순번:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#d37295' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1m3tkpu0b2xnww1aklrxr17kleup].[sum:좌석:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f9a655' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1m3tkpu0b2xnww1aklrxr17kleup].[sum:Number of Records:qk] + ([federated.1m3tkpu0b2xnww1aklrxr17kleup].[sum:기령(년):qk] + ([federated.1m3tkpu0b2xnww1aklrxr17kleup].[sum:순번:qk] + [federated.1m3tkpu0b2xnww1aklrxr17kleup].[sum:좌석:qk])))</rows>
+        <cols>[federated.1m3tkpu0b2xnww1aklrxr17kleup].[yr:등록일자:ok]</cols>
+      </table>
+      <simple-id uuid='{375687CD-362A-4632-B624-40123DDDEA32}' />
+    </worksheet>
+    <worksheet name='시트 5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='sheet (NewsResult_20200101-20200401)' name='federated.1udyenz1veg9if160nt3h0hbhmgw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1udyenz1veg9if160nt3h0hbhmgw' />
+          <filter class='categorical' column='[federated.1udyenz1veg9if160nt3h0hbhmgw].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <slices>
+            <column>[federated.1udyenz1veg9if160nt3h0hbhmgw].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{D787D495-9D28-4AA7-ADD8-DA2B342AD1AC}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='135'>
+    <window class='worksheet' name='시트 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.09umhrs0skm5fx14tuozq0p4jy8n].[none:STN_ID:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.09umhrs0skm5fx14tuozq0p4jy8n].[none:ALERT:nk]</field>
+            <field>[federated.09umhrs0skm5fx14tuozq0p4jy8n].[none:RWY_DIR:nk]</field>
+            <field>[federated.09umhrs0skm5fx14tuozq0p4jy8n].[none:STN_ID:ok]</field>
+            <field>[federated.09umhrs0skm5fx14tuozq0p4jy8n].[sum:Number of Records:qk]</field>
+            <field>[federated.09umhrs0skm5fx14tuozq0p4jy8n].[tyr:TM:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{1E34DB7B-3EE5-4212-9E85-81ECE77FB69A}' />
+    </window>
+    <window class='worksheet' name='시트 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0c8wcsh0zfae2v19xwgfb0wgunvn].[:Measure Names]</field>
+            <field>[federated.0c8wcsh0zfae2v19xwgfb0wgunvn].[none:공항:nk]</field>
+            <field>[federated.0c8wcsh0zfae2v19xwgfb0wgunvn].[none:노선:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9657AB5A-277B-443D-8E48-68955794CD43}' />
+    </window>
+    <window class='worksheet' name='시트 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1vrhys71wokkv219qt0vs1vqirwl].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1vrhys71wokkv219qt0vs1vqirwl].[:Measure Names]</field>
+            <field>[federated.1vrhys71wokkv219qt0vs1vqirwl].[none:F1:nk]</field>
+            <field>[federated.1vrhys71wokkv219qt0vs1vqirwl].[none:F2:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A85E2561-4CC3-43BC-8155-7CD94BF94590}' />
+    </window>
+    <window class='worksheet' name='시트 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1m3tkpu0b2xnww1aklrxr17kleup].[:Measure Names]</field>
+            <field>[federated.1m3tkpu0b2xnww1aklrxr17kleup].[none:항공사:nk]</field>
+            <field>[federated.1m3tkpu0b2xnww1aklrxr17kleup].[yr:등록일자:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D8260547-7AED-4BA8-9E8B-1AC4F7B323CA}' />
+    </window>
+    <window class='worksheet' maximized='true' name='시트 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1udyenz1veg9if160nt3h0hbhmgw].[:Measure Names]</field>
+            <field>[federated.1udyenz1veg9if160nt3h0hbhmgw].[Multiple Values]</field>
+            <field>[federated.1udyenz1veg9if160nt3h0hbhmgw].[cnt:제목:qk]</field>
+            <field>[federated.1udyenz1veg9if160nt3h0hbhmgw].[none:본문:nk]</field>
+            <field>[federated.1udyenz1veg9if160nt3h0hbhmgw].[none:키워드:nk]</field>
+            <field>[federated.1udyenz1veg9if160nt3h0hbhmgw].[none:특성추출:nk]</field>
+            <field>[federated.1udyenz1veg9if160nt3h0hbhmgw].[sum:Number of Records:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{186EA8F0-3858-4FA3-87F6-442F8EBCEA6E}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='시트 1' width='192'>
+      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
+      SUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='시트 2' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='시트 3' width='192'>
+      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
+      4wXTG331jAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='시트 4' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAbuUlEQVR4nO2da3NbyZnff93n4EqQBEhKlChpdJnRjO31ZrPjrO2ZOBVv7aT22+VFXuQ7
+      pPImSW22dp1srbOO7YnH8sxYskYXji4UAYIgiOs5BziX7s4LUBxRJMELeBGI/lWpKBAP+jQO
+      +9/9PN3P6RbGGIPFMqHI866AxXKeWAFYJhr3vCtgsRwHr7nOw+VVCrMlrhUd/st/+0cWbtzl
+      P/zkz6g0eiwuzBK0a7yqh9x9/wZzxeKe5dgRwDKWbK6XuXfvHve+/CMbtQ2Uhp7XwQt69MM+
+      /bDP4qUFpmaLvPh2ed9yrAAsY0lxbp5MymG6WOLazff58V/9iOtLV3GVx3/+T/+Rz++/pNb0
+      yYmI+UuL+5Yj7CyQZZJxAYwxeJ53IgUGQUA+nz+RsiyW08YFEEIwPT195A8/ffSAIHFIEZGe
+      KvHB7fcAjlWWxXIejDQLJKUDxpCfKWK0RimFUookSU6qfhbLqTKSABYXFynEgjQR6cIcjuPg
+      OA6ua2dXLePBSC21MDtH4aRqYrGcA3Ya1DLRWAFYJhorAMtEYwVgmWisACwTjRWAZaIZSQDt
+      xgbNjk+lvIqyGUWWMeTY6wDGGJ48ecKd29eJyLNarnL96iW7EmwZK0ZbCCsUWN9o0ItaLN24
+      aVeCLWPHiadDd7tdmwxnGRv2jAGSpI/n9c+6LhbLmbNLACoOefCne3x97zFRos6jThbLmbF7
+      BBDiu/8idr1tsVwk9owBkiQkDGFqKnPkAm0MYBkndo0A/a4HjqRRXsNGAZaLzi4BrD1ZxsPj
+      3i+/sgKwXHh2CaBQKvD0wTKF+WkbAVguPLtWrIpLV5grS+Z/OM9BEUCzVqETJnQaTZZu3WV+
+      1u4GYRkvdglg9U/LvDKKdLXO3Ed3yO7zQWMSvnm8TMaJufL9n9Hr1lGFjE2FsIwVuwSQm5lm
+      VilKS+5QF0gIl09+9u9ot5tsrC2zdOcjmwphGTt2TYNGfZ+19ToAlxaXyGdTRyrQToNaxold
+      QbCOQ5YfPmKlWkXbXRMtF5xdAthcWSd7aQEZxLi59HnUyWI5M2w2qGWisY9EWiYaKwDLRGMF
+      YJloRhCAYXO9Qsfv24fiLWPL8YNgY+i0G9TXy8jCVYRRXL96iW63S6Fgt8ydBJrdPr/64wq1
+      VsD7SyU+uFbi2qVppBifLLJjC8AYwxef/5ob792gsj54KP7qpaKdBZoAml6f3zx4xZNXm6Rc
+      Z/v3caJwHcnNK0W+d2OeO0slXOfsvexelPCy2uJFtUWl7pFOOVxbmObOUolrC9M76mSnQS2H
+      Jghj/u8fV3j4so4jBWJIT58ojRSCG5dn+OBaibvX58mmv0uR0caQJJooUYSxIooTelFCGCUI
+      IZidylDIpZnKppFy+IiitaHW8nlWafJyvU1ls4srJc5b4osThRCCawvTXL80w52lkhWA5WD6
+      UcLvHpX56mkVIYY3/L1QWpMozexUlihWxEoRJ3qHjRQCKcW2+5QohTYggHw2xXQ+TT6TJp91
+      KeTSFHJpokRR3uhS3ugQJZqUKw9dN2MMUaysACz7EyeK3z9e4w9P11DavFO+/etme1Qxvo1N
+      27wAGGMI+jFhoihk06RTzsEfegutDZ0gZL3hsdEOaPshK+ttokTjvNEzvyuM2vBfYwVwTkSJ
+      IowSXNch4zoH+rnwRiNt+tS3Gmmj06PZ7RHGCmNAYHBdh+ktNyGfTQ186VyK6VyGYiGLFFBr
+      BdTbAU2vT6vbp+33UdqQcnb6zs4h6jXOWBfoFDHGEIQxm+0eG+2AZrfHZrtHy+vj9aOtBguG
+      QUNLpxxSrkMm5ZB2HVKuJOU6KKVp+yEtb+9Geli0NiRKYzCkXOed69XPg5FHABN1+MP9Zyy9
+      d4url4onUaexQxtDxw+pvdUzN7Z6ZkcKXGdngJZJ7b71xkAUK6J47w3JUq7D0Z7O2ImUgrQ8
+      unt0kRldAEnE/JVrROH57iGhtCHoR7T9kE4Q0vUjwvhwj2YKIbZ73HTKIZdxyaRcsmmXlOuQ
+      Tg3cFKU1La9PteGz2QlobrkOze7ePbMQYsfUn+XdY+S/jsjNk25WWLx2bc/3jTF8tVwlivWe
+      7x+HWCmCfkwnCPF7MUE4+GfMYDrNdeWxh3djDFoblDEYbXjbPxQCUs5On33UntlyfggzAM/z
+      TqTAIAjI57/bHcIYw4tqC61tspDl3cMGwZaJxqZDWyaaI8UAKg7xQ4XqdwkSSU4qsrMLtOpV
+      Fpeu49hZNcuYcSQXKPA9Wh2PZn2NKzfex2s3UH4dOXvTpkNbxpIjjQBxGPBypczN6wu8Wl0l
+      pUOyuSk21yv2jDDLWGKDYMtEY4Ngy0RjBWCZaKwALBONFYBlorECsEw0VgCWicYKwDLRWAFY
+      JhorAMtEs4cADN1Wg8r6xq6HQSyWi8aupJ1aeYV6N2Im5/Cnxx1++NH72+957Qa1VoDqtUlk
+      Ft3vkMllaXfCiX4m2DK+7BLAbDHHP/3zF9y6ssSff/bpjvcKMyW6QURkCrhaIWdLKL/O/JWb
+      RGEfpZQ9JtUyVuwSQDpf4qeffJ+v/+kp33/rvXazTtfrceXyLFpm0b0O2Sv/mlZ9ncVr13AE
+      NhvUMlbsygbdqJbp+AG9EK5dvUSpdDS3xmaDWsaJXUHwzHSBzXoDv9vAj/ben8ZiuSjsMQsU
+      svykgmNCpJM7+xpZLGfILgG0Kk1MGODLmHq1dR51sljOjF0xgN9sUt6oU5orUpq/hHvEB91t
+      DGAZJ3aNAG7GBQzNRpN+PzqHKlksZ8cuATRflZHTBbxeRCGXPo86WSxnxq4J+6n5S8wtzONL
+      lxjsnpeWC43dFcIy0dhsUMtEc6ychZfPnuLmi/RaNTKFWVqbmyzdusv8bP7gD1ss7xDHEoDj
+      OAS+T266iG5XmHvvX9Hr1lGFjE2Gs4wVxxCAwXVdsqkMRB75qx/SrC6zdOcjuzXiBBImIV7U
+      ZT6/cN5VORY2CLYcC200j+oPeFD7mlhFzGZLvF/6kPfnPiTtjM/0uRWA5UgYYyh3X3Gv8jm9
+      pIcUcsd7yihuzNzkw/nvc3nqyomd53tUtNGESYgfd5lOz5JxM3vaWQFYDk2r3+T3ld9S89dx
+      5XA3N1YxhXSB26W7fDT/gz0bYKIT/Mij1W/QCdt4UZdu1EFpRdpJk3Gzg39OlrSTJp/Kk08V
+      yG79DsCPPTphi27YwYs9/KhLN+wQxD6JUUgEQgguT13hvdnb3Jy9s6MuVgCWAwmTPl9Wv+B5
+      cxnngIb/NsYYEh1zY/YWs9kivTigE7bxYx8/8gCDK12kGH58qzEGbfTgH5o3xxVHujgHfP51
+      GcokXJ66ynuzt7hVfN8KwLI/2ige1R/yoPYVxphzc2dOg4GY1OjHpFqOjjGGIPYJVUg+NUXW
+      zR67nF4S0Oo3afWbRCoi62aYShXIpwrkUjmybm6Hn74XiU4IYh8/6uLFHr04oJf0qHbL9JIA
+      KZwL1fgBpJBIIa0AThttNN2ww0awTrPXoNlv0OxvEqkIgcBgcIVLPpVnKl0gn5piKlVgKl1g
+      JlOkkC7gCJd22NzylTvbvrIXdlBGIYWz7ZO/dhWUURijEUKScTNknSwZN0fWzSKFpJ/0CGKf
+      Xtwj1oOsXykcnLca+0GuybhjXaATRBtNq9+g5q/T6jdo9DZp9ZuDoVamDuyJ38QYQ2IStBn4
+      uwKBK1MXric+b0YeAYzq8+DB43cuFWIQfCXbQ91pNJxEJ2z461S9Cpu9DTaDOomOdzTUQc98
+      9NsshCAlbC7uaTO6AIImc+99j163DucgAG00XtSl0avT6jfphG26YZtu1CHR36VkCARCSKQQ
+      SOFsiUIiEbjSJe1myTiZ7Sm2jJsh6+bIp6bIuXnSThptNDW/yrpfZbO3QbPXQIpBzwxbjXaM
+      FoEsJyAAUbhM8OgRS3c+2vN9Ywz/+9nfk5gEjNkKqAAExhikdAaNc1AaUg56bEcMfi+FREoH
+      R8jBZxEoo+iGne25Y7M9lfadiyGFQ9rZ33/VRoPRKCDWMb2kt2fdlVFoozCAgB2uzDiteFr2
+      RpgBeJ53IgUGQUA+/91IYIzh6/V7gwZnsbxj2CDYMtHYB2IsE82xYwBjDCvPnpIrlsg6WZSU
+      lGamTrJuFsupc2wBCCHI5jL4fov7j+v89Wc/tbtDW8aOEUYAhe/3cXJpfvC92zTaHgvFaftA
+      jGWssEGwZaKxQbBlorECsEw0VgCWicYKwDLRWAFYJhorAMtEYwVgmWisACwTjRWAZaI5vgCM
+      YaNaphsEhGFCr9c/wWpZLGfD8XOBgHQmw+ZmmfKzJn/5yY9sMpxl7Bgpa+3RN99w68PbzM+L
+      wZNgNhnOMmbsSoYLgy7PV8rksgWu3bp+ZIXYZDjLOLErBhBSsvryBRtPVziZp4QtlneX3QIA
+      hIx5vrbJ3htKWywXh10eTiqT5/3rH/LxT5bsEamWC8+uESAKGjx++JSvv/jKukCWC88uAaTy
+      c8gkZGahiN32yXLRsY9EWiYamwph2YExBtWPCDdaqH503tU5deyK1QRilCIJQpK2T9zxUV6P
+      xO8Pfnp9jFIgBJnLRS599qMLvSW7FcAFwSiF97SMDmN0nGBitfUz+e5nogY/o0GqinAk4q0N
+      hAe/GzgGUb1N7+U6+VtXzvz7nBVWABcAYwyN3zykV64j5EG9tUCmDzfBLRyH1h+ekr22gExd
+      zKYyUjbot48fE5mAykqVzY5/gtWyHAXvmxV6qxuHaPxHR8cJnT8+O/Fy3xWOL2shKM7MYIzi
+      m8fP+Plnn9hs0HMgrDZofb0MQmD06WxB3328QvbWIu7sxdv79djToMYYvn38kPz8PNOZArE2
+      zBWn7TToGRJ3Amq/+AL0ic5k78IYQ3pu+kIGxCNtjvvB9/7sJOsyUUTNLlG9TeHu9WN9XkcJ
+      9V9+eeqNHwZ/64saEF/MyOYdxhiDv1ymde8JAP1ynblPf4hMH/5PYbSh8ZsHqF50Zj3yICB+
+      cuECYrsQdoYYpWn97hGt3z9BSImQkv56k+r//C3RZudwZRhD58Ez+muNM3dHdKwuXEBsBXBG
+      qKDP+j/8Dv/52vY8OwzcCxMrar/4Pd6TVweW01/doPvw5Y4yzgohBN6TVeL2xUmTtAI4A3rl
+      OtW//38ov4+Qe99y4Uha956w+av76ETtaRM1uzR++3DfMs4EKWh+8ZgTTiE7N6wAThFjDJ37
+      z9j8lz8eKlgVjkOvUqf2D78jbu9cV1FhxOb/+fq0qnpohBBEGy16K+vnXZUTwQrglNBRTP2X
+      X9H504sjuStCCFQQDtylbyvAIHbY/NV9VBifVnWPxOsVYh2P/3qPTYc+BeKWR/1fvh55lsYk
+      ivytK4i0i79cPl/X5y2MMRTuXqf48d3zrspIjHRK5NNHD8iXisgoRaY4zfyEnhKpwpio3iKs
+      tYibXcJaazDLM+IsjXAdgpUaGL0rae28EULgPV5h6v2rpGYLJ1Km0WY7mW/f60oBW/fVKI1R
+      Wwl+scK8TvZL1OC9RG1ntgpnMOsmXAchBSLlIhxnhHUAY5iamUOFHR4/afLzzz49dlGnjTEG
+      kyh0GKP6Ecrvo3ohOorR/RijNU42jcymcXJpnKkcTjaNk00j3J0NzyhN3PLoVxvEjS5Ro0PS
+      DUBK5JbtSfbUg/yed6vxbyMlzS8ec+lvPh4qdqM1JtHoKCbxeii/T+L30L0I1QtRQTj42Y9g
+      2yF5uzwz2I3tbQSDBv5aGEIcquMxxoAxI7hAxrDyYpmp0jxpmT6XVAijNbofkwT9QaMOBg1b
+      bd1YHcbofjS4sdp8d7O2eoP9yjRKb9sL10GmUzi5DGCIWx5GGUTKuXBpAcfBKE3mSgkQmCQZ
+      9LqJHvTCr1+rN3KU5CDd+l25d8IMwPNOZm43CALy+fz2a2MMYbWBeXtqT0qG3QNjzJ4zJ0YP
+      evPXjd1oM7iZrkSId8dHtowHIwTBhmr5FcrNMZPPEscxc3NzNgi2jBUjJXX0+302u23W/E1u
+      /8WnNh3aMnaMIABBoTCFcvMUry/S7zRwClfs5riWscKuA1gmGhs1WiaakRbCnnxzn3ypiBOn
+      J3ohzDK+jOCsa6IowQ0DXjxdtc8EW8aSkZ4JfvHtE/LFEvl03j4TbBlLbBBsmWhsEGyZaEYI
+      gjXPnzwkMAY3yXHpvas2CLaMHSNsiyKZKsyytFjk3q+/4cYHt2wQbBk7RooB+v0+mYxLHEGi
+      Y/K5nI0BLGPFSDkL2WwWgHQG0naLIcsYMtIDMeWV5+SKJVzjoqSkZGMAy5hx/CAYw1q1yrWc
+      y5dfl/nrz35qYwDL2DFSNujc3BxRpPjB927TaHssFKdtNqhlrLALYZaJxi6EWSaaXb5KGHT5
+      u//+jxQvz/GTT39GIbfPacHG8PibB8xfXSTqapsNahlLdglACMl7H97BRe7f+LdwHIcg6PL0
+      8brNBrWMJXvGAL1mHVWYp5AasteLMbx89pR8qUTOzdlsUMtYsksAzbUK9fYmK/Ue//bHH5M9
+      wsENYINgy3ixq3W3ymuUTYxsdAjTLtnzqJXFckbsGgG0UggJQbdPdmZq6KZ8qy8e0zMS5Yvt
+      bFA7AljGiV0jgNzahHXqgBkdoyKqtQZONkPQTGw2qGUsGWkhzBhNGPaRIm2zQScUE2xi4h5y
+      9ninXZ43I+UsCCHJZgf7gNps0MnCJH30y1+jNx4NXi98hLz97xFO6pxrdjRGeih+bfUlMwuL
+      pGQKrRNyuawdAS44RivM+gP0q88xxmzv8myMRrg55AefjdVoMJIAKivPiURC5XmLv/zkR2Sc
+      wTRooXAyByZY3i1EZxX94leYsAP77cRtFHLxh3Dj0/1t3iFG2heoH4ZEKObn5wbbotts0AuJ
+      6TVRL36Fbr9CSBfhDPv7SszGN4jOKs7dv0VMXTqzeh4Hmw1q2ReThOjVL9DVrxHCYeiBDnt9
+      XifIaz9CXv/xvmc3GKOh18K0XmK6FUxnDaSDuPoXyMUfIpzh6TijYgVwQdD1p+jKl4iZK4ji
+      LcTMEkIefSQ2cYBprw7+NZ5hdDzSwSNGK0RuDufDv0XkShitwa+hWy8x3TXoVjEqGjT0NwRm
+      tALpIK/8OXLpY4R7OkuyI8UAK8+fIjIZXJXZzga1AjhbjDGYtS/RK5+DHKzhGDU4TlVMX0XM
+      LCFLt6CwuGdDNnGAab3CtF8NeuBeC6SLkCd7LpkxGpFfwPgbYBRCpg41ogzO8lLIhQ8HI0l2
+      9lDXImhsfac1TNIHMzimSRgw6K3XYrQzwjbW10hNudz7fJmff/YJaG2D4DPFYF7+GlP70/CA
+      U0WD6cnCImb6GiKVx3TXEP46ptcE6Y5FwIpWiNJNWPo3O2MLozH+Bqa9ivDXobM66AQO4T6N
+      NAI8+eYBxcuLdm/Qc8DoBP30f6Gbz4/WWxsDmPFo8PtgVISYuYaYuoTx1jF+bSCOQ44qb2Jj
+      gDHEJCHq0d9h/Jo9GHBE7HzlmGHCLuqb/4EJu7bxnwAjhPeGR/fvE+oujx4ss9nxT7Balr0w
+      fh11/79C5L0z5+yOO8cfAYTg0sICAJubDZsNesqY9ivM8i+2ZzMsJ8NIRyR5PY940+Wvfvox
+      iY5xnNxErwQbozHtVeg1BrMU+fkTmb/WG49Qz/4ZKeRYB6/vIjYIHhETB5jNbzHNF+jOKugE
+      IVMYHQ96azeLyBYR2SLkSoj8PGJqHjIzCCExOoEoGOTX9FuY0IPIw0Q+RB7EPkbFx1rUshyM
+      FcARMUaDV0NvLmNaK5igDk7q0AGp0Qp0DMJBOOnBIg1m8Fq6R57Gs4yGMAPwPO9ECgyCgHw+
+      v/3aGAP+Brz+Q2//njdemz18Wzm8MRgD6K0iBquFr4vauzyx0304ajszQNRFN18Ovssp56hY
+      zoYTHwGUUjjOzoWZN/PGrZ21O0u71837TTutB52jlPLkt0aU8o0ijaFcLmP26G532GGo19ao
+      rq3R9ftD7TY31qmUy/SiZIjdAIGh1e4MrV+tWiGKE7qev78dho3qGhsbNbwgHFqe73Upl8tE
+      8ZD6GY0f9KhVywT9eKhdEPSoll/h9YZcVyvKlTX2Gtbe/h61aoW1Shl/2HUxbNbWeP5ihViZ
+      oXb19bXB903UELsBQie0ukPuszFU1yokSUzX7w297vraGhu1Kr1w//usVYLneZQrFfQb/bwQ
+      YlsQJy6AnYo0dL0u5VcrtL1gfztjKK+WWa1UqFSrQ+1WyxUwCeXKMDvNwwf3qZRXWa1uDLVr
+      dnxq5Re8KK/vb6cVjXYHr9tlbX3IdTGslV/xaPkZb7OzvIRvnz6i1uhQqQ65rlEsP3nI85VV
+      6s32/nYqou35rL5a2dWB7LSLWX21SrlSYa1WH1re6mqZOA55WR7yfVXEq8oGOgoo15pDv++D
+      +w+orL6kstEaUl5I2+tTefGUlfUh5SU9mq3B36Oy0djXLol6vHjxgpU92sqpCeBtjEqYLs4z
+      W8gPsRIUSyWmC1MUZ4tD7RbmitSbbebn54bazc5M02i1ub60NMRMMpV1afsh15euDLFzmMqm
+      CYKAubmFIdeFbDZHaXqKXhjvbyRd5oqzCKNZWJgfet1SsUhheprS7Mz+dm6avGNod7sM9Wel
+      y8LCHJlsjsvD7p9MMVMoEMUJlxeG280VC2jhMjdsFxEhmZ6eQuFybXHI93VSZF2BTE9x/fKQ
+      6zoZctk0juMwV9x/wkUgKEzPMDddQO9zY05dALmpGYTq7xoBdmIIwz5Ka8IwHGrn+QHF0gJ+
+      t3OAncf07By+1x5ip/F9n+nZEoHXPdiuOE8/GDJZYAbXXVi8gjesPKPxfJ+ZYgl/2OSD0fh+
+      QLE0h9cdVp6h1+8zM1ukO7Q8hR8MyusOrZ+iH0XMzs7S7Q4vrx/GCPRwwRtFrx+hVUI/jIbY
+      aXrhll00pDyt6IURGL3L1XyTOI6IE4UQhkTtrYBTFoAgCQOeLC/jveXT7aqIdAh8H+eARTRH
+      SmrVMtIdPgsjpUOtWj7giSKB3CpPHFiepFatHHhdR0pqawfZCaSQVNcqSHf4LgpSCqprazip
+      g64rqFbXcIaWt3Xd6hrugd93UJ6bGl4/g0EKyWHmUqQUO3zxvUp7bXdQeYbBriTD7IzRCCER
+      2yXv5tRXVzKZNDdv30WrYekRYsvug0PYZbh5exGt1VC77CHtMpkMt25fQR3GbuEKygyxE4JM
+      JsuthasH2mWzGW5fOqg8SSaT5fblq8Prt2V35/JB15Vks1nmFw+2y2Sy3FlcQukhqRfCIeVI
+      tIFsZohQhEPKEWgjyKaH2bmkpEAZQWGYnRzYaRhaXjqbQ6smrpvClXvPe5+6C5QkiiQM2Gi2
+      htrFsSLp+2w0h7kshjgZ2L0dFO5t51FvDneVkkQT97sH2EGiNHHvIDtDrDRxr3MIO0Pc67LZ
+      GuZ6GRJtiP3Ooewiv029NdxF+85uuEultCDyWtTbQ+x0RDcIcSTUNpv726k37Ya0AxXS7YW4
+      EmqN4Xbelt365v7twGs1UEiSqE+3t7dL9f8BV/myJL3c7qcAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='시트 5' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACN0lEQVR4nO3asQkDMRAAwbdRqv7bVAf6HoTxG+9MfnDBbSDQa++9L4h6P70APEkApAmA
+      NAGQJgDSBECaAEgTAGkCIE0ApI3TQT8o+AfHAay1rjGOx+EnHF/wGOOac35yF/g6bwDSBECa
+      AEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmA
+      NAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgT
+      AGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQ
+      JgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkC
+      IE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDS
+      BECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0A
+      pAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECa
+      AEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBECaAEgTAGkCIE0ApAmA
+      NAGQJgDSBECaAEgTAGkCIE0ApAmANAGQJgDSBEDaDWKhC44c/YWnAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>

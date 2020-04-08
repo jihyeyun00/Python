@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20201.20.0326.1623                               -->
+<workbook original-version='18.1' source-build='2020.1.2 (20201.20.0326.1623)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='저층바람시어경보_인천공항(수시)' inline='true' name='federated.09umhrs0skm5fx14tuozq0p4jy8n' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='저층바람시어경보_인천공항(수시)' name='textscan.1rc8v9a0cs2qw1127bfzi0jrdv55'>
+            <connection class='textscan' directory='D:/python/Python/kakao_project/카카오자료' filename='저층바람시어경보_인천공항(수시).csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1rc8v9a0cs2qw1127bfzi0jrdv55' name='저층바람시어경보_인천공항(수시).csv' table='[저층바람시어경보_인천공항(수시)#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ko_KR' separator=','>
+            <column datatype='datetime' name='TM' ordinal='0' />
+            <column datatype='integer' name='STN_ID' ordinal='1' />
+            <column datatype='string' name='RWY_DIR' ordinal='2' />
+            <column datatype='string' name='RWY_AD' ordinal='3' />
+            <column datatype='string' name='ALERT' ordinal='4' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[저층바람시어경보_인천공항(수시).csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ko&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₩&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ko_KR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TM</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[TM]</local-name>
+            <parent-name>[저층바람시어경보_인천공항(수시).csv]</parent-name>
+            <remote-alias>TM</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STN_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[STN_ID]</local-name>
+            <parent-name>[저층바람시어경보_인천공항(수시).csv]</parent-name>
+            <remote-alias>STN_ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RWY_DIR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[RWY_DIR]</local-name>
+            <parent-name>[저층바람시어경보_인천공항(수시).csv]</parent-name>
+            <remote-alias>RWY_DIR</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RWY_AD</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[RWY_AD]</local-name>
+            <parent-name>[저층바람시어경보_인천공항(수시).csv]</parent-name>
+            <remote-alias>RWY_AD</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ALERT</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ALERT]</local-name>
+            <parent-name>[저층바람시어경보_인천공항(수시).csv]</parent-name>
+            <remote-alias>ALERT</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Alert' datatype='string' name='[ALERT]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Rwy Ad' datatype='string' name='[RWY_AD]' role='dimension' type='nominal' />
+      <column caption='Rwy Dir' datatype='string' name='[RWY_DIR]' role='dimension' type='nominal' />
+      <column caption='Stn Id' datatype='integer' name='[STN_ID]' role='dimension' type='ordinal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.553459' measure-ordering='alphabetic' measure-percentage='0.446541' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='시트 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>저층 바람 시어 경보&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='저층바람시어경보_인천공항(수시)' name='federated.09umhrs0skm5fx14tuozq0p4jy8n' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09umhrs0skm5fx14tuozq0p4jy8n'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column caption='Rwy Ad' datatype='string' name='[RWY_AD]' role='dimension' type='nominal' />
+            <column caption='Rwy Dir' datatype='string' name='[RWY_DIR]' role='dimension' type='nominal' />
+            <column caption='Stn Id' datatype='integer' name='[STN_ID]' role='dimension' type='ordinal' />
+            <column datatype='datetime' name='[TM]' role='dimension' type='ordinal' />
+            <column-instance column='[RWY_AD]' derivation='None' name='[none:RWY_AD:nk]' pivot='key' type='nominal' />
+            <column-instance column='[RWY_DIR]' derivation='None' name='[none:RWY_DIR:nk]' pivot='key' type='nominal' />
+            <column-instance column='[STN_ID]' derivation='None' name='[none:STN_ID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TM]' derivation='Year-Trunc' name='[tyr:TM:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09umhrs0skm5fx14tuozq0p4jy8n].[none:RWY_AD:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:RWY_AD:nk]' />
+              <groupfilter function='member' level='[none:RWY_AD:nk]' member='&quot;D&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.09umhrs0skm5fx14tuozq0p4jy8n].[none:RWY_AD:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>([federated.09umhrs0skm5fx14tuozq0p4jy8n].[none:RWY_AD:nk] / ([federated.09umhrs0skm5fx14tuozq0p4jy8n].[none:RWY_DIR:nk] / [federated.09umhrs0skm5fx14tuozq0p4jy8n].[none:STN_ID:ok]))</rows>
+        <cols>([federated.09umhrs0skm5fx14tuozq0p4jy8n].[tyr:TM:ok] * [federated.09umhrs0skm5fx14tuozq0p4jy8n].[sum:Number of Records:qk])</cols>
+      </table>
+      <simple-id uuid='{04F19E50-929F-44CE-B965-61212708E5DC}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='시트 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.09umhrs0skm5fx14tuozq0p4jy8n].[none:ALERT:nk]</field>
+            <field>[federated.09umhrs0skm5fx14tuozq0p4jy8n].[none:RWY_AD:nk]</field>
+            <field>[federated.09umhrs0skm5fx14tuozq0p4jy8n].[none:RWY_DIR:nk]</field>
+            <field>[federated.09umhrs0skm5fx14tuozq0p4jy8n].[none:STN_ID:ok]</field>
+            <field>[federated.09umhrs0skm5fx14tuozq0p4jy8n].[sum:Number of Records:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{1E34DB7B-3EE5-4212-9E85-81ECE77FB69A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='시트 1' width='192'>
+      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
+      /wcTxtiXqQjEHQAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
